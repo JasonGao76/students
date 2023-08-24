@@ -14,8 +14,10 @@ Lastly, above the heart is a book. I love reading (recently I read <i>The Three-
 I did not include this because I am a terrible MSPaint artist, but I also love anime (I would recommend Jujutsu Kaisen) and manga and play a good number of anime-style games! I have mainly played Genshin Impact, Honkai Star Rail, Honkai Impact 3rd, and Azur Lane. Yes I have sold my soul to Hoyoverse iykyk...
 
 ## Trimester 1 APCSP Journal
+<a href="https://github.com/JasonGao76" target="_blank">My GitHub!</a> <br>
+<a href="https://app.clickup.com/9013053165/v/l/6-901300399350-1" target="_blank">Check out To-Do List on ClickUp!</a> <br>
 Period: 2 <br>
-Coding Partner: Arthur Liu (MY SONNNNNNNNN 😭😭😭) <br>
+Coding Partner: Arthur Liu, MY SONNNNNNNNN 😭 (<a href="https://github.com/dino596" target="_blank">His GitHub!</a>) <br>
 Remember: <i>"By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the <u>bitterest</u>." - Confucius </i>
 
 
