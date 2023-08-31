@@ -6,7 +6,7 @@ title: Computer Science Lab Notebook
 [//]: <(This is a comment; need a free line above the table for it to work; "&nbsp;" is for a space)>
 
 # Computer Science Lab Notebook
-## Last Edited: 8/29/2023
+## Last Edited: 8/30/2023
 
 ## What are Plans, Hacks, and Tangibles?
 Blogging in GitHub pages is a way to learn and code at the same time. 
@@ -22,6 +22,8 @@ Install tools, design lab notebook, learn GitHub Pages, and work with pair (Arth
 |------|:------------------------|:---------------------------|:-----------|
 | 0    |   - Wed: Pick partners and table&nbsp;<br> - Thur: Setup Tools&nbsp;<br> - Fri: Start customizing blog&nbsp;<br>  <br> |   - Download and Setup Tools&nbsp;<br> - Setup Repository&nbsp;<br> - Setup GitHub&nbsp;<br> <br> | - Home page&nbsp;<br> - GitHub&nbsp;<br> - Tools&nbsp;<br> <br> |
 | 1    |   - Mon: Fix tools setup, schedule live review, tech talk&nbsp; <br> - Tue: Customize blog, fix tools setup, prepare for live review, tech talk&nbsp;<br> - Wed: Customize blog, fix tools setup, live review, tech talk&nbsp;<br> - Thur: Started Python&nbsp;<br> - Fri: Work on Python quiz&nbsp;<br> <br> |   - Setup&nbsp;<br> - Python&nbsp;<br> - Jupyter&nbsp;<br> - VSCode&nbsp;<br> <br> | - This blog&nbsp;<br> - Live Review&nbsp;<br> - Tools&nbsp;<br> <br>|
-| 2    |   - Mon: Work on Python quiz, create lab journal and new pages, update repository&nbsp;<br> - Tue: Polish Python quiz, work on lab journal, prepare for blog check, edit/fix blog&nbsp;<br> - Wed: &nbsp;<br> - Thur: &nbsp;<br> - Fri: &nbsp;<br> <br> |   - Python quiz&nbsp;<br> - Lab Journal&nbsp;<br> - Repository Update&nbsp;<br> <br>  | - Python quiz&nbsp;<br> - This page&nbsp;<br> - Blog header and anatomy <br><br>|
+| 2    |   - Mon: Work on Python quiz, create lab journal and new pages, update repository&nbsp;<br> - Tue: Polish Python quiz, work on lab journal, prepare for blog check, edit/fix blog&nbsp;<br> - Wed: Polish blog, Game of Life, Snake, Calculator&nbsp;<br> - Thur: &nbsp;<br> - Fri: &nbsp;<br> <br> |   - Python quiz&nbsp;<br> - Lab Journal&nbsp;<br> - Repository Update&nbsp;<br> - Game of Life, Snake, Calculator (JS)&nbsp;<br>  | - Python quiz&nbsp;<br> - This page&nbsp;<br> - Blog header and anatomy&nbsp;<br> - <a href="{{site.baseurl}}/frontend/life" target="_blank">Game of Life</a>&nbsp;<br> - <a href="{{site.baseurl}}/techtalk/home_style" target="_blank">Calculator</a>&nbsp;<br> - <a href="{{site.baseurl}}/frontend/snake" target="_blank">Snake</a>&nbsp;<br>|
 
-
+## Test
+<li class="title"><a href="{{site.baseurl}}/quiz">Test</a></li>
+[quiz.ipynb](./_notebooks/quiz.ipynb)

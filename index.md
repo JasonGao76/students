@@ -22,5 +22,4 @@ Coding Partner: Arthur Liu, MY SONNNNNNNNN 😭 (<a href="https://github.com/din
 Remember: <i>"By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the <u>bitterest</u>." - Confucius </i>
 
 ## Test
-<a href="/students/_notebooks/quiz.ipynb" target="_blank">Test Jupyter Notebook Python</a> <br/>
-^broken as shit and idk why
+<a href="/students/_notebooks/quiz.ipynb" target="_blank">Test Jupyter Notebook Python (not really working)</a> <br/>
