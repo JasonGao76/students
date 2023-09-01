@@ -16,10 +16,10 @@ I did not include this because I am a terrible MSPaint artist, but I also love a
 ## Trimester 1 APCSP Brief Background
 <a href="https://github.com/JasonGao76" target="_blank">My GitHub!</a> <br>
 <a href="https://app.clickup.com/9013053165/v/l/6-901300399350-1" target="_blank">Check out To-Do List on ClickUp! (Replaced by lab journal)</a> <br>
-Please see the <a href="{{site.baseurl}}/compsciNEW">CompSciNEW</a> tab for weekly plans and lab journal! <br><br>
+Please see the <a href="{{site.baseurl}}/compsciMine">CompSciNEW</a> tab for weekly plans and lab journal! <br><br>
 Period: 2 <br>
 Coding Partner: Arthur Liu, MY SONNNNNNNNN 😭 (<a href="https://github.com/dino596" target="_blank">His GitHub!</a>) <br>
 Remember: <i>"By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the <u>bitterest</u>." - Confucius </i>
 
 ## Test
-<a href="/students/_notebooks/quiz.ipynb" target="_blank">Test Jupyter Notebook Python (not really working)</a> <br/>
+<a href="/students/_notebooks/quiz.ipynb" target="_blank">Test Jupyter Notebook Python</a> <br/>
