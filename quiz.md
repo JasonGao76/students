@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Python Quiz
+
 ---
 
 
@@ -21,7 +20,6 @@ def question1():
     global correctanswer
     global wronganswer
     global totalanswer
-    # global ___ is supposed to make the thing work and not give the local variable referenced before assignment error but it aint workin
     answertoq1 = input("Question 1: What is Python's output command?")
     if answertoq1.lower() == "print":
         print("You answered " + answertoq1 + ". This is correct. Well done.")
@@ -267,3 +265,5 @@ else:
     You got 10 out of 11 right and 1 out of 11 wrong.
     This corresponds to 90.9 percent correct and 9.1 percent wrong.
     You earned an A!
+```python
+```

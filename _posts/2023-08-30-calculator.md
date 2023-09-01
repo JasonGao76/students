@@ -61,6 +61,7 @@ HTML implementation of the calculator.
 <!-- mess with padding and spacing for each like number to make it align properly -->
 
 <!-- Add a container for the animation -->
+
 <div id="animation">
   <div class="calculator-container">
       <!--result-->
@@ -94,7 +95,8 @@ HTML implementation of the calculator.
         <div class="calculator-equals">=</div>
       </div>
   </div>
-</div>
+</div> 
+
 
 <!-- JavaScript (JS) implementation of the calculator. -->
 <script>
