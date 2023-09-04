@@ -6,7 +6,7 @@ title: Computer Science Lab Notebook
 [//]: <(This is a comment; need a free line above the table for it to work; "&nbsp;" is for a space)>
 
 # Computer Science Lab Notebook
-## Last Edited: 9/1/2023
+## Last Edited: 9/3/2023
 
 ## What are Plans, Hacks, and Tangibles?
 Blogging in GitHub pages is a way to learn and code at the same time. 
