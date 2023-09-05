@@ -3,7 +3,7 @@ title: JS Calculator
 comments: true
 hide: true
 layout: default
-description: A common way to become familiar with a language is to build a calculator.  This calculator shows off button with actions.
+description: Calculator built using JS. This calculator shows off buttons with actions.
 permalink: /techtalk/home_style
 categories: [C7.0]
 courses: { csse: {week: 2}, csp: {week: 2, categories: [2.C]}, csa: {week: 2} }
@@ -86,6 +86,10 @@ HTML implementation of the calculator.
       <div class="calculator-number">0</div>
       <div class="calculator-number">.</div>
       <div class="calculator-equals">=</div>
+      <!--row 5-->
+      <div class="calculator-operation">/</div>
+      <div class="calculator-operation">sqrt</div>
+      <div class="calculator-operation">^2</div>
   </div>
 </div> 
 
@@ -166,6 +170,12 @@ function calculate (first, second) { // function to calculate the result of the 
             break;
         case "/":
             result = first / second;
+            break;
+        case "sqrt":
+            result = Math.sqrt(first); // sqrt and ^2 broken bc lags behind bc no "second" i think? no clue how to fix though
+            break;
+        case "^2":
+            result = Math.pow(first, 2);
             break;
         default: 
             break;

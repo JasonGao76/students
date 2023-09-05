@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Daily Plan
+title: Daily Plan Week 0
 description: Daily plan for week 0 unit 1
 type: plans
 courses: { compsci: {week: 0} }
