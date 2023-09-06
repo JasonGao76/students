@@ -114,6 +114,7 @@ numbers.forEach(button => {
   });
 });
 
+
 // Number action
 function number (value) { // function to input numbers into the calculator
     if (value != ".") {
@@ -171,17 +172,18 @@ function calculate (first, second) { // function to calculate the result of the 
         case "/":
             result = first / second;
             break;
-        case "sqrt":
-            result = Math.sqrt(first); // sqrt and ^2 broken bc lags behind bc no "second" i think? no clue how to fix though
-            break;
-        case "^2":
-            result = Math.pow(first, 2);
-            break;
+        // case "sqrt":
+        //     result = Math.sqrt(first); // sqrt and ^2 broken bc lags behind bc no "second" i think? no clue how to fix though
+        //     break;
+        // case "^2":
+        //     result = Math.pow(first, 2);
+        //     break;
         default: 
             break;
     }
     return result;
 }
+
 
 // Equals button listener
 equals.forEach(button => {
