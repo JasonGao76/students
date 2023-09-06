@@ -8,14 +8,14 @@ type: tangibles
 courses: { compsci: {week: 3} }
 ---
 ## Plan for Pair Showcase
-- Plan is this page. Check GitHub Issues, should have stuff not done yet (calculator, update time box, linux, chatgpt)
-- Ask teacher questions: Ask about whether or not os.system (running Linux commands in Python) counts as linux and interaction in VSCode
-- Linux: os.system, LIKELY CHANGE OR UPDATE
+- Plan is this page. GitHub Issues tracks what we have been working on: calculator, updating time box, linux, chatgpt
+- Ask teacher questions: Ask about whether or not os.system (running Linux commands in Python) counts as linux and interaction in VSCode (DONE) + ask other groups questions about organizing and themes
+- Linux: incorporate os.system in python to run linux commands, especially pip install
 - Python: Python hacks (mean calculator/emoji/wikipedia), Python quiz
 - JavaScripts: JS Calculator, JS Tables w/ jquery
-- Update Time Box page (see those pages, update as go along)
-- Review with ChatGPT: Used to help understand JS Calculator and help add sqrt function + SUMMARIZE CHATGPT RESPONSE INTO PAGE
-- Make review ticket (can put it under here on this page)
+- Update Time Box page (update as go along)
+- Review with ChatGPT: Used to help understand JS Calculator and help add sqrt function, summarize response and prove
+- Make review ticket (further down this page)
 
 ## Review Ticket
 > Plan: See above.
