@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: post
-title: Python Quiz
+title: Python Quiz Procedure
 description: Procedure for how we created the Python Quiz
 courses: { compsci: {week: 2} }
 type: hacks

@@ -31,15 +31,22 @@ courses: { compsci: {week: 3} }
 - Linux combined with Python_Hacks.
 
 > Python and VSCode
-- 
+- See Python_Hacks in the hacks column in the Time Box, or use Jupyter Notebooks.
+- See Python Quiz in the hacks column in the Time Box, or use Jupyter Notebooks.
 
 > Web interaction in JavaScript
-- 
+- See JS Tables in the hacks column in the Time Box.
+- See JS Calculator in Week 2 Tangibles in Time Box.
 
 > All updated in Time Box page: 
+- Check out the Time Box table in compsciTeacher!
 
-> ChatGPT: We asked ChatGPT to help us explain the JavaScript in the JS Calculator. First we asked for a quick summary:
-- ChatGPT told us that the code uses HTML, CSS, and JS to make a calculator with GUI and Vanta.js animation. The HTML markup creates a container div (id "animation) to hold calculator and animations, and has a calculator-container div in the container to hold the calculator elements. The CSS defines styles, and the main styles are making the .calculator-output class take up the first row of the calculator, have rounded corners, have a border and padding, and have a font size, and the .row class to have rows. The JS adds functionality by defining firstNumber/operator/nextReady, selects DOM elements using document.getElementById and document.querySelectorAll, has event listeners that detect when these buttons are clicked, and defines functions for numeric, opration, calculate, equal, and clearCalc buttons.
+> ChatGPT: We asked ChatGPT to help us explain the JavaScript in the JS Calculator. First we asked for a quick summary, then for help to add a square root function:
+- Summary of code: ChatGPT told us that the code uses HTML, CSS, and JS to make a calculator with GUI and Vanta.js animation. The HTML markup creates a container div (id "animation) to hold calculator and animations, and has a calculator-container div in the container to hold the calculator elements. The CSS defines styles, and the main styles are making the .calculator-output class take up the first row of the calculator, have rounded corners, have a border and padding, and have a font size, and the .row class to have rows. The JS adds functionality by defining firstNumber/operator/nextReady, selects DOM elements using document.getElementById and document.querySelectorAll, has event listeners that detect when these buttons are clicked, and defines functions for numeric, opration, calculate, equal, and clearCalc buttons. Lastly, the code includes Vanta.js animations and imports various scripts to set up random animations.
+- Add square root function: Add new div element with calculator-operation class (kinda sketchy because the other operations are defined with first and second but sqrt doesn't have second), create event listener for square root button, add new function to calculate square root, and modify operation and calculate function. This did not really work in the end, partially because we did not fully understand the JavaScript behind the calculator or the ChatGPT code and also because the ChatGPT code did not really take into consideration the other code and the arguments "first" and "second" for the operation functions.
+- The div element: &nbsp; <img src="https://media.discordapp.net/attachments/1143438030749847604/1148881519570604132/image.png">
+- The modifications to JS: <img src="https://media.discordapp.net/attachments/1143438030749847604/1148881587140833310/image.png">
+<img src="https://media.discordapp.net/attachments/1143438030749847604/1148881626026225684/image.png">
 
 > Review Ticket:
 - This page right now!
