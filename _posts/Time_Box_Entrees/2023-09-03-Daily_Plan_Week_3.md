@@ -9,6 +9,9 @@ courses: { compsci: {week: 3} }
 ---
 
 ## Monday:
+> Labor Day, no school
+
+## Tuesday:
 > Tech Talk on JS Tables and jquery. Notes:
 - Markdown Table:
 - | heading | heading 1 |
@@ -34,11 +37,14 @@ courses: { compsci: {week: 3} }
 
 > Work on ChatGPT for Review Ticket
 
-## Tuesday:
-- 
-
 ## Wednesday:
-- 
+> Prepare for live showcase
+- Clarify plan and review ticket
+- Organize projects, materials, how to showcase everything, and what to talk about
+
+> Polished JS Tables and Python_Hacks
+
+> Updated Time Box
 
 ## Thursday:
 - 
