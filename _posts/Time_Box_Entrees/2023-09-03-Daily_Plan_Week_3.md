@@ -47,7 +47,22 @@ courses: { compsci: {week: 3} }
 > Updated Time Box
 
 ## Thursday:
-- 
+> Tech Talk
+- jupyter notebook themes
+- style and experimeint with html (w3schools)
+- console.log() outputs to Console, behind-the-scenes JS
+- DOM - Document Object Model, changes content
+- alert box (blocking modal dialogue)
+- var (variable name) = (what variable equal to) to set variable
+- object - collection of data
+- objet can have code in the data in the object
+- put it in JSON (JavaScript Object Notation) so can be on page
+- make table much more efficiently w/ setting variable and for loop
+
+> Prepare for tech talk
+- Polish projects (JS Calculator, Python_Hacks), practice everything to showcase
+
+> Update Time Box
 
 ## Friday:
 - 

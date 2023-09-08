@@ -90,6 +90,7 @@ HTML implementation of the calculator.
       <div class="calculator-operation">/</div>
       <div class="calculator-operation">sqrt</div>
       <div class="calculator-operation">^2</div>
+      <div class="calculator-operation">^</div>
   </div>
 </div> 
 
@@ -171,6 +172,9 @@ function calculate (first, second) { // function to calculate the result of the 
             break;
         case "/":
             result = first / second;
+            break;
+        case "^":
+            result = first ** second;
             break;
         // case "sqrt":
         //     result = Math.sqrt(first); // sqrt and ^2 broken bc lags behind bc no "second" i think? no clue how to fix though
