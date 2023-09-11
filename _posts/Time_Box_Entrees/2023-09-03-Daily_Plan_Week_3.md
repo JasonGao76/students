@@ -65,4 +65,6 @@ courses: { compsci: {week: 3} }
 > Update Time Box
 
 ## Friday:
-- 
+> Pair Showcase
+
+> Start working on new projects: JS Input and JS Output with Objects

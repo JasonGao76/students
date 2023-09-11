@@ -88,7 +88,7 @@ HTML implementation of the calculator.
       <div class="calculator-equals">=</div>
       <!--row 5-->
       <div class="calculator-operation">/</div>
-      <div class="calculator-operation">sqrt</div>
+      <div class="calculator-operation">&Sqrt; </div>
       <div class="calculator-operation">^2</div>
       <div class="calculator-operation">^</div>
   </div>
