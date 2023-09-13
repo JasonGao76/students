@@ -27,7 +27,19 @@ courses: { compsci: {week: 4} }
 > Briefly work on JSOutput_with_Objects
 
 ## Wednesday:
-> 
+> Finalize group of 4
+
+> Lecture on Agile Methodology
+- All teams need a methodology to function
+- Establish culture and be courteous, don't last minute upload everything, continuously update
+- Collaborate with others
+- Roles: Scrum Master, DevOPS, Front end Dev, Back end Dev
+- Progress Labels: To do/backlog --> In progress --> Code Complete --> Deployed --> Verified
+- Make manifestro, make Agile diagram, team test, hacks
+
+> 1.1-1.4 Team Test
+- Isabelle is Scrum Master, decided by coin flip
+- All work together on everything, but all have focus: All do collaboration, Me and Arthur focus on Program Function and Purpose, Isabelle and Matthew focus on Program Design and Development, Rayane focus on Identifying and Correcting Issues.
 
 ## Thursday:
 > 
