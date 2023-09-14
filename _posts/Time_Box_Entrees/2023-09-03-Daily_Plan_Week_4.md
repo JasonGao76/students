@@ -42,7 +42,22 @@ courses: { compsci: {week: 4} }
 - All work together on everything, but all have focus: All do collaboration, Me and Arthur focus on Program Function and Purpose, Isabelle and Matthew focus on Program Design and Development, Rayane focus on Identifying and Correcting Issues.
 
 ## Thursday:
-> 
+> Tech Talk
+- strings are text
+- "+" concatenates strings
+- substring, dot substring from 0 to 5 (letter assocated with number starting from 0, 0 based counting)
+- 
+- numbers
+- lots of math possible
+- 
+- array - lists / collections
+- [thing, thing2, thing3, etc.]
+- push adds, shifts remove from front, pop removes from end
+- objects
+- uses {}
+- key and dot notation to use key to get value
+
+> Work on Program with Function and Purpose for 1.1-1.4 Team Test
 
 ## Friday:
 > 
