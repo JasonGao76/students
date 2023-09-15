@@ -60,4 +60,12 @@ courses: { compsci: {week: 4} }
 > Work on Program with Function and Purpose for 1.1-1.4 Team Test
 
 ## Friday:
-> 
+> Work on Program with Function and Purpose for 1.1-1.4 Team Test
+
+> Manage GitHub and fix push/pull
+
+> Work on updating blog
+
+> Tech Talk
+- How to debug in VSCode
+- Ideas for hacks by challenging each other
