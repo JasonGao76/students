@@ -41,8 +41,20 @@ courses: { compsci: {week: 5} }
 - %%python --bg is new, need Python 3.11 for it not 3.10
 - Make team Python Flask server
 
+> Record Program Funtion and Purpose section
+
+> Record my part on collaboration slide
+
 ## Thursday:
-> 
+> Tech Talk on Python Flask
+- Create flask repository using https://nighthawkcoders.github.io/teacher//c7.1/2023/09/12/python-flask-repo.html
+- Follow https://nighthawkcoders.github.io/teacher//c4.0/2023/09/12/python-flask-anatomy_IPYNB_2_.html to see 
+
+> Start working on Python Flask
+
+> Finish up recordings
+
+> Polish Programs
 
 ## Friday:
 > 
