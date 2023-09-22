@@ -72,3 +72,5 @@ courses: { compsci: {week: 5} }
 > Start working on new repo
 - Frontend repo: ramjiJARMI
 - Backend repo: JARMIRAMJI
+
+> Logged into AWS and changed password
