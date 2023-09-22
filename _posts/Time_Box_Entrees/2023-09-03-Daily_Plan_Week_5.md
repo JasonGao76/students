@@ -57,4 +57,18 @@ courses: { compsci: {week: 5} }
 > Polish Programs
 
 ## Friday:
-> 
+> Team test, got 4/4, and record extra credit
+
+> Organize roles for frontend/backend/devOPs
+- Isabelle: Scrum Master / Frontend
+- Rayane: Frontend
+- Matthew: DevOPS / Backend
+- Jason: DevOPS / Backend
+- Arthur: Backend
+
+> Create plan for new project
+- Check milanote
+
+> Start working on new repo
+- Frontend repo: ramjiJARMI
+- Backend repo: JARMIRAMJI
