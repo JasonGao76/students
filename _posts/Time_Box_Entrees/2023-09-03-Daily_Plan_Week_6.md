@@ -31,7 +31,13 @@ courses: { compsci: {week: 6} }
 - Check out Mr. Mortenson's API projects if needed
 
 ## Wednesday:
-> 
+> Tech Talk AWS
+- Route 53 and EC2 are the two main things to know and use in AWS
+- csp.nighthawkcodingsociety.com to bypass stuff, username is ubuntu, password is Ubuntu (one for all and all for one)
+- Test on Docker on local machine first, ensure that it works, then deploy it on AWS so ONLY working code on AWS
+- Dont update it now
+
+> Finished DOM
 
 ## Thursday:
 > 
