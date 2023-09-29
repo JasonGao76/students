@@ -37,10 +37,16 @@ courses: { compsci: {week: 6} }
 - Test on Docker on local machine first, ensure that it works, then deploy it on AWS so ONLY working code on AWS
 - Dont update it now
 
-> Finished DOM
+> Finished DOM at school, and JS and Debugging at home
 
 ## Thursday:
-> 
+> Get utterances working and start adding comments on teammates and other teams
+
+> Fix up some code in the web programming test and make it more creative and passionate
+
+> VSCode kept crashing when I opened the .ipynb, so I made a new file and copy pasted code over and it works.
 
 ## Friday:
-> 
+> Polish up utterance comments, review ticket, and plan and practice how to present the web programming test.
+
+> Did web programming test, earned 3.9/4!
