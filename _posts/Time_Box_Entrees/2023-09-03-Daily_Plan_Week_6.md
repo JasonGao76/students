@@ -50,3 +50,12 @@ courses: { compsci: {week: 6} }
 > Polish up utterance comments, review ticket, and plan and practice how to present the web programming test.
 
 > Did web programming test, earned 3.9/4!
+
+> Plan Passion Project, Terminal Souls (Console game similar to Dark Souls)
+- Try to build an area from Dark Souls
+- Use pixel art, HTML, etc. to output scenes
+- Have user move from area to area using cd
+- Have puzzle, start with broken sword, need to cd to find sword
+- One boss fight, turn based
+- Have templates for classes w/ preset values, so when user pick class, just set user stats to that class
+- Backend has most of the data for classes, attacks, etc. + Frontend has output, display, inventory display, HP bar, pixel art, etc.
