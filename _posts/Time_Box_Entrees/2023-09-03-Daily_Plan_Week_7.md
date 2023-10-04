@@ -26,7 +26,8 @@ courses: { compsci: {week: 7} }
 > Work on passion project, specifically get API to handle some functions, defining functions, and writing data
 
 ## Wednesday:
-> 
+> Student lesson on Data Abstraction
+- See hacks for details
 
 ## Thursday:
 > 
