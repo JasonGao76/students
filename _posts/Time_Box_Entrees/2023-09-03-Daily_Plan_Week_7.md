@@ -30,7 +30,8 @@ courses: { compsci: {week: 7} }
 - See hacks for details
 
 ## Thursday:
-> 
+> Student lesson on Algorithms
+- See hacks for details
 
 ## Friday:
 > 
