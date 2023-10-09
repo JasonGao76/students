@@ -34,4 +34,9 @@ courses: { compsci: {week: 7} }
 - See hacks for details
 
 ## Friday:
-> 
+> Work on ideation video
+- Plans, tangibles, scripts, etc.
+> Work on Backend
+- Testing API, looking at API examples, etc.
+- Testing flask server
+- Polish functions
