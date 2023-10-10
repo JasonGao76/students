@@ -17,7 +17,9 @@ courses: { compsci: {week: 8} }
 - So need to make dictionary with all the datasets, get user input for the classes, etc.
 
 ## Tuesday:
-> 
+> Students lesson on Boolean
+
+> Worked on homework for student lesson and briefly worked on API
 
 ## Wednesday:
 > 
