@@ -27,7 +27,7 @@ courses: { compsci: {week: 8} }
 - UPDATE, PUSH, GET DATA
 - Check out the examples and directions on the teacher repo
 
-> Work on API, issues are appearing
+> Work on API, issues are appearing so need to start debugging and test more
 
 ## Thursday:
 > 
