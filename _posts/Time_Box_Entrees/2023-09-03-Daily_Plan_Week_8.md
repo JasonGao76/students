@@ -22,7 +22,12 @@ courses: { compsci: {week: 8} }
 > Worked on homework for student lesson and briefly worked on API
 
 ## Wednesday:
-> 
+> Tech talk on API
+- NEED TO FOCUS ON CONNECTION BETWEEN FRONTEND AND BACKEND
+- UPDATE, PUSH, GET DATA
+- Check out the examples and directions on the teacher repo
+
+> Work on API, issues are appearing
 
 ## Thursday:
 > 
