@@ -30,7 +30,9 @@ courses: { compsci: {week: 8} }
 > Work on API, issues are appearing so need to start debugging and test more
 
 ## Thursday:
-> 
+> Student lesson on iteration
+
+> Worked on homework for student lesson
 
 ## Friday:
 > 
