@@ -16,7 +16,11 @@ courses: { compsci: {week: 9} }
 > Worked on API and fixed a few broken things + Tested API and ensured it worked
 
 ## Tuesday:
-> 
+> Student lesson on Algorithms
+
+> Work on Algorithms homework
+
+> Polish and final test on API to prepare for live review
 
 ## Wednesday:
 > 
