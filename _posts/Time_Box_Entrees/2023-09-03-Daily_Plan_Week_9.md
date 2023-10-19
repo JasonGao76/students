@@ -23,10 +23,17 @@ courses: { compsci: {week: 9} }
 > Polish and final test on API to prepare for live review
 
 ## Wednesday:
-> 
+> JS Object Oriented Programming
+- Create class to repeat specific parts of code
+- Within class, many properties/attributes/actions are defined
+- class Cat extends Pet --> Cat class inherits attributes from Pet class + you can add more principles specific to Cat, so Pet is just like framework
+- Avoid repititive code with loops, classes, extend, objects, etc.
+- Use inspect to see classes and sources
+
+> Work on data model and API, polish and practice for live review
 
 ## Thursday:
-> 
+> List and Binary Search Student Lesson
 
 ## Friday:
 > 
