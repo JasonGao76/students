@@ -35,5 +35,7 @@ courses: { compsci: {week: 9} }
 ## Thursday:
 > List and Binary Search Student Lesson
 
+> Worked on List and Binary Search homework
+
 ## Friday:
 > 
