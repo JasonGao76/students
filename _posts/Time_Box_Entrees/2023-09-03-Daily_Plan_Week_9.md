@@ -38,4 +38,8 @@ courses: { compsci: {week: 9} }
 > Worked on List and Binary Search homework
 
 ## Friday:
-> 
+> Prepare for live review
+
+> Complete live review, earned 2.95/3
+
+> Start student teaching lesson
