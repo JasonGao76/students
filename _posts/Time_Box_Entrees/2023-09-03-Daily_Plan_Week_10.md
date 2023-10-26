@@ -29,6 +29,8 @@ courses: { compsci: {week: 10} }
 
 > Helped and figured out plan with frontend
 
+> Started grading some student HW to lesson about Procedures
+
 ## Thursday:
 > 
 
