@@ -18,10 +18,16 @@ courses: { compsci: {week: 10} }
 - Project documentary: Edit README, project plan, issues, can show some parts in blog, time box, doument code, comments
 
 ## Tuesday:
-> 
+> We taught the student lesson about Procedures
+
+> Finished new soulsCharacter data model for Passion Project on JARMIRAMJI and tested it (it works!)
 
 ## Wednesday:
-> 
+> Project integration check, earned 1.75/2
+
+> Polished backend, made issue on JARMIRAMJI github to prove work
+
+> Helped and figured out plan with frontend
 
 ## Thursday:
 > 
