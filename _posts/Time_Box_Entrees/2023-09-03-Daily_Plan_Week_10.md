@@ -32,7 +32,11 @@ courses: { compsci: {week: 10} }
 > Started grading some student HW to lesson about Procedures
 
 ## Thursday:
-> 
+> Student lesson on Python Libraries
+
+> Worked on homework for Python Libraries
+
+> Tried to help deployment
 
 ## Friday:
 > 
