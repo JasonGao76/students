@@ -39,4 +39,6 @@ courses: { compsci: {week: 10} }
 > Tried to help deployment
 
 ## Friday:
-> 
+> Did most of student grading, will finish over the weekend
+
+> Worked on API and datamodel and added inventory and will work on making it a list rather than a string
