@@ -35,4 +35,4 @@ courses: { compsci: {week: 8} }
 > Worked on homework for student lesson
 
 ## Friday:
-> 
+> Work on API with debugging and more testing
