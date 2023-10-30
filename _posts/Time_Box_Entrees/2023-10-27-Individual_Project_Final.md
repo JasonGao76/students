@@ -8,14 +8,17 @@ type: tangibles
 courses: { compsci: {week: 11} }
 ---
 ## Individual Code
-- Please see the GitHub Issue named _ on repository _ (JARMIRAMJI?) 
+- Please see the GitHub Issues named "New API and Model to handle Player, Update Model and try to post a List" and "modules and import data not working + get user input for class" on repository JARMIRAMJI for what I mainly worked on
+- GitHub Analytics: I have been continuously working and committing, as proven by having commits for most days and definitely multiple per week. [Here is my GitHub profile!](https://github.com/JasonGao76)
+- Key GitHub commits: 
 
 ## Individual Blog
 > Code in blog
-- e
+- Student Lessons (see right in explorer in VSCode) name all changed to include "SL" in the beginning to indicate that they are student lessons. All of them are also on the TimeBox.
+- All hacks and questions completed. The homework questions I am most proud of are Iteration extra credit, list and search binary search question, and list and search extra credit.
 
 > Usage of blog
-- e
+- See TimeBox! Everything has been continuously logged with daily plans and hacks. A big use of this blog was for student lessons as you can see from the hacks, and the key student lessons that I thought were personally the most helpful are marked with an asterisk.
 
 > Psuedo-code notes
 - Uses "<--" instead of "="
@@ -29,6 +32,7 @@ courses: { compsci: {week: 11} }
 - Uses "PROCEDURE __ ()" instead of "def __()" and "{}" instead of ":"
 - Robot commands: CAN_MOVE (left/right/forward/backward), ROTATE_RIGHT(), ROTATE_LEFT(), MOVE_FORWARD(), MOVE_BACKWARD(), GoalReached
 - Uses "INPUT ()" in all caps
+- 
 
 > Collegeboard Quiz notes
 - Question 3: Citizen science?
@@ -41,6 +45,7 @@ courses: { compsci: {week: 11} }
 - Question 23: Redundant routing?
 - Question 24: lossy vs. lossless
 - Question 33: flowchart
+- 
 
 > Trimester 1 reflection
 - e
