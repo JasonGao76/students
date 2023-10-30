@@ -8,7 +8,10 @@ type: tangibles
 courses: { compsci: {week: 11} }
 ---
 ## Individual Code
-- Please see the GitHub Issues named "New API and Model to handle Player, Update Model and try to post a List" and "modules and import data not working + get user input for class" on repository JARMIRAMJI for what I mainly worked on
+> Please see the GitHub Issues named "New API and Model to handle Player, Update Model and try to post a List" and "modules and import data not working + get user input for class" on repository JARMIRAMJI for what I mainly worked on.
+- New API and Model to handle Player, Update Model and try to post a List:
+- Modules and import data not working + get user input for class:
+
 - GitHub Analytics: I have been continuously working and committing, as proven by having commits for most days and definitely multiple per week. [Here is my GitHub profile!](https://github.com/JasonGao76)
 - Key GitHub commits: 
 
