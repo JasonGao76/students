@@ -61,7 +61,7 @@ delete:
 }
 
 ## Tuesday:
-> 
+> Did Qualification Test / Final Project - Team, we qualified :DDD. While we did qualify, there are a few refinements that need to be made and we should plan our presentation better to showcase our requests and have the leaderboard update live on another computer.
 
 ## Wednesday:
 > 
