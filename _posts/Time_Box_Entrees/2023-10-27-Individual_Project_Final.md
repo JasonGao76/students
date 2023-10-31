@@ -19,7 +19,6 @@ courses: { compsci: {week: 11} }
 - [10/3 passionproject update](https://github.com/dino596/JARMIRAMJI/commit/f57832e8aa83ec78d95264189d3d4e722fdcb13a): Created all the preset class data sets in the data model to send requests to
 - [10/13 updates](https://github.com/dino596/JARMIRAMJI/commit/05e0d86af08da394a1451f01ab90d8f7e1d04936): Corresponds to ["Modules and import data not working + get user input for class"](https://github.com/dino596/JARMIRAMJI/issues/2) issue where I fixed and experimented with the imports and changed the GET request to actually work and request a specific class data.
 - [10/24 added soulsCharacter model](https://github.com/dino596/JARMIRAMJI/commit/954c2b3674364741816ddafe1a0ff8209700e503): Corresponds to ["New API and Model to handle Player, Update Model and try to post a List"](https://github.com/dino596/JARMIRAMJI/issues/3) issue, added the new data model for the player class and did some minor edits to the API to correctly call the soulsCharacter data model not the souls datamodel.
-- 
 
 ## Individual Blog
 > Code in blog
