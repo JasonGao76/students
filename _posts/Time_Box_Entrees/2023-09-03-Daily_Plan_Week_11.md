@@ -31,4 +31,6 @@ courses: { compsci: {week: 11} }
 > Look over Individual Final
 
 ## Friday:
-> 
+> Completed Individual Final, talked for like 20-30 minutes by accident but it worked out in the end and I got 9.6/10 which I am very happy about
+- Next trimester try to branch out a bit more and maybe dive into more Javascript by trying out frontend instead of backend
+- Ask more questions and get more feedback
