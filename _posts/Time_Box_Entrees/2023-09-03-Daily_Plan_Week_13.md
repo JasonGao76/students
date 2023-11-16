@@ -19,7 +19,9 @@ courses: { compsci: {week: 13} }
 > Fleshed out idea, ironed out problems with repo, work on project
 
 ## Wednesday:
-> 
+> Created Canva illustration and rough design of idea + signed up for the presentation
+
+> Worked on project
 
 ## Thursday:
 > 
