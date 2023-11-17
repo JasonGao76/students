@@ -24,7 +24,12 @@ courses: { compsci: {week: 13} }
 > Worked on project
 
 ## Thursday:
-> 
+> Did presentation of project to Mr. Lopez, earned 0.94
+- One suggestion is to do something/alter the binary values within the code to really show mastery
+- Try to implement this, this could be interesting and cool to see
+
+> Worked on project
 
 ## Friday:
-> 
+> Worked on project
+- Committed and synced an incomplete version with comments nothing what code doesn't work and why so group can see and maybe add onto it. Will commit a finished version soon.
