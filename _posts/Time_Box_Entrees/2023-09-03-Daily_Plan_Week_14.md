@@ -9,7 +9,9 @@ courses: { compsci: {week: 14} }
 ---
 
 ## Monday:
-> 
+> Caught up Will on plan and organized jobs and roles
+
+> Work with Rayyan on Quiz part of project
 
 ## Tuesday:
 > 
