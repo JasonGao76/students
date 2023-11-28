@@ -14,7 +14,10 @@ courses: { compsci: {week: 14} }
 > Work with Rayyan on Quiz part of project
 
 ## Tuesday:
-> 
+> The Internet Student Lesson
+- IP, OSI, DNS, HTTP and HTTPS, TCP and UDP
+
+> The Internet Student Lesson homework
 
 ## Wednesday:
 > 
