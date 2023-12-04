@@ -39,4 +39,6 @@ courses: { compsci: {week: 14} }
 - NOTE: When trying to run on GitHub Pages, it doesn't work since it doesn't load the scripts properly for some reason?
 
 ## Friday:
-> 
+> Review with Mr. Lopez about Binary project and earned 1.95/2, just need to keep developing features, fix bugs, and add styling
+
+> Work and plan on Student Lesson
