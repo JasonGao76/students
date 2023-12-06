@@ -14,10 +14,13 @@ courses: { compsci: {week: 15} }
 > Work on binary project
 
 ## Tuesday:
-> 
+> Beneficial and Harmful Effects Student Lesson, we presented!
+
+> Quickly work on binary project
 
 ## Wednesday:
-> 
+> Work on binary project, SCRIPTS WORKKKK
+- Issues on GitHub Pages with not loading scripts properly?
 
 ## Thursday:
 > 
