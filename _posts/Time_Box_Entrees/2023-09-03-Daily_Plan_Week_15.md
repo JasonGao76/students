@@ -23,7 +23,9 @@ courses: { compsci: {week: 15} }
 - Issues on GitHub Pages with not loading scripts properly?
 
 ## Thursday:
-> 
+> Digital Divide Student Lesson and Digital Divide Student Lesson HW
+
+> Work on styling for project
 
 ## Friday:
 > 
