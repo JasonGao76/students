@@ -28,4 +28,7 @@ courses: { compsci: {week: 15} }
 > Work on styling for project
 
 ## Friday:
-> 
+> Fixed issue with scripts not working
+- Worked a little on styling
+
+> Helped carousel team with images and sliding feature
