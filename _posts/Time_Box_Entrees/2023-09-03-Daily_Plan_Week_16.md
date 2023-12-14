@@ -14,13 +14,13 @@ courses: { compsci: {week: 16} }
 ## Tuesday:
 > Team teach on Computing Bias
 
-> Homework for computing bias
+> Homework for Computing Bias
 
 ## Wednesday:
 > Talk about CPT project and start ideation
 
 ## Thursday:
-> Team teach
+> Team teach on Crowdsourcing
 
 > Continue ideation
 
