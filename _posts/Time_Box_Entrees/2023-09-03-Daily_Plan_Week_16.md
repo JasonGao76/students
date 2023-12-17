@@ -28,7 +28,7 @@ courses: { compsci: {week: 16} }
 > Continue ideation
 
 ## Friday:
-> Final presentation of binary project to Mr. Lopez
+> Final presentation of binary project to Mr. Lopez, got 0.08
 
 > Final decision on project: Turn-based Fantasy Tarkov-esque
 - Various stats of characters or like equipment that increases stats
