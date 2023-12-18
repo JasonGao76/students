@@ -9,7 +9,9 @@ courses: { compsci: {week: 17} }
 ---
 
 ## Monday:
-> 
+> Finish team teaching grading and post to Slack
+
+> Worked on Collegeboard MCQ
 
 ## Tuesday:
 > 
