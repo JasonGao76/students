@@ -10,14 +10,22 @@ courses: { compsci: {week: 17} }
 
 ## 2020 Pracice Exam 1 MCQ Notes
 > Questions Googled and Notes on what Researched
-- Question 4: Overflow error is when program gets a number, value, or variable that it can't handle
-- Question 9: Only one to do with security is public-key, Creative Commons license allows use of some material if creator attributed, high-bandwidth has to do with speed, and redundant routing just makes sure it gets there but doesn't provide security
-- Questions 11-12 is about binary and RGB colors, IT GOES FROM HIGHEST TO LOWEST POWER OF 2
-- Question 17: Bits can represent all 3 (integer (binary), alphanumeric character (ASCII, Unicode, other character encoding schemes), and machine language instruction (uses binary code))
-- Question 35: Generalization of procedure is like procedural abstraction where you organize/encapsulate procedures/algorithms with names and variables or parameters
-- Question 40: Certificate authority is a trusted entity that issues SSL certificates, verifying the authenticity of encryption keys for secure  communications
-- Question 52: Googled to make sure answer was right, I is correct because of the conditions "REPEAT UNTIL ((hours >= 24) OR (currentPop <= 0)), II is wrong because the change in population isn't displayed per hour and isn't average change, III is wrong because it's not the total population but change in population
-- Question 54: CollegeBoard pseudocode reference sheet link: https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-exam-reference-sheet.pdf?course=ap-computer-science-principles. INSERT (list, i, value) shifts everything with indices greater or equal to i to the right and places value at index i. APPEND (list, value) places value at the end of list.
+- Question 4
+    - Overflow error is when program gets a number, value, or variable that it can't handle
+- Question 9
+    - Only one to do with security is public-key, Creative Commons license allows use of some material if creator attributed, high-bandwidth has to do with speed, and redundant routing just makes sure it gets there but doesn't provide security
+- Questions 11-12
+    - About binary and RGB colors, IT GOES FROM HIGHEST TO LOWEST POWER OF 2
+- Question 17
+    - Bits can represent all 3 (integer (binary), alphanumeric character (ASCII, Unicode, other character encoding schemes), and machine language instruction (uses binary code))
+- Question 35
+    - Generalization of procedure is like procedural abstraction where you organize/encapsulate procedures/algorithms with names and variables or parameters
+- Question 40
+    - Certificate authority is a trusted entity that issues SSL certificates, verifying the authenticity of encryption keys for secure  communications
+- Question 52
+    - Googled to make sure answer was right, I is correct because of the conditions "REPEAT UNTIL ((hours >= 24) OR (currentPop <= 0)), II is wrong because the change in population isn't displayed per hour and isn't average change, III is wrong because it's not the total population but change in population
+- Question 54
+    - CollegeBoard pseudocode reference sheet link: https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-exam-reference-sheet.pdf?course=ap-computer-science-principles. INSERT (list, i, value) shifts everything with indices greater or equal to i to the right and places value at index i. APPEND (list, value) places value at the end of list.
 
 > General Notes
 - Pseudocode uses REPEAT _ TIMES or REPEAT UNTIL _ as loop
@@ -42,8 +50,23 @@ courses: { compsci: {week: 17} }
 - Question 50 is about algorithm runtime with a large list
 - Question 53 is about crowdsourcing in a pet finding application
 - Pseudocode uses MOD instead of %
+- Question 55 has very interesting use of people instead of computers to run a program to calculate average height
+- TCP and IP standardizes how data is exchanged over the internet (remember TCP has its handshake)
+- Question 59 is about open source software, use logic since both open source software and commercial software provides free/low cost support
+- Question 60 has very interesting program about finding number of unique numbers in two lists, took a while to think through it and write out some examples and test them all
+- Question 64 is interesting algorithm to do multiplication by repeated addition and input results in unintended output
+- Question 66 is fun algorithm to find the number of perfect numbers between two numbers and have to fix the code
+- Question 64-67 are all fixing code or finding the inputs that the code doesn't return proper output
+- **TOTAL TIME**: 2 hours, 19 minutes, and 7 seconds (sometimes clicked off a little bit for around 10 minutes total), so roughly 2 hours spent totally
 
 > Corrections
-- 
+- Question 26 Metadata for an image
+    - ![Alt text](image.png)
+- Question 50 Reasonable time algorithms
+    - 
+- Question 51 Creative Commons
+    - 
+- Question 60 Number of elements in one list but not both
+    - 
 
 ## 2023 Written Response Practice Exam 1

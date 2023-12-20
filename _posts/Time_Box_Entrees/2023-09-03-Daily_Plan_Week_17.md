@@ -14,7 +14,9 @@ courses: { compsci: {week: 17} }
 > Worked on Collegeboard MCQ
 
 ## Tuesday:
-> 
+> Legal and Ethical Concerns student lesson
+
+> Legal and Ethical Concerns student lesson homework
 
 ## Wednesday:
 > 
