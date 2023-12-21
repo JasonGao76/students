@@ -61,12 +61,22 @@ courses: { compsci: {week: 17} }
 
 > Corrections
 - Question 26 Metadata for an image
-    - ![Alt text](image.png)
+    - <img src="https://i.postimg.cc/ZK6J0jTh/Q26.jpg">
+    - Actual answer and explanation: D, A duplicate copy of the data. Metadata can be considered as the additional information for the data, making finding and working with it a lot easier. Usually it has information like the author, date created and modified, size, copyright, etc. It likely won't have another copy of the data because it would be just the actual data then and would make the file sizes way too large to be practical.
 - Question 50 Reasonable time algorithms
-    - 
+    - <img src="https://i.postimg.cc/nhZpm7z9/Q50.jpg">
+    - Actual answer and explanation: D, I, II, and III. Reasonable time to run is considered anything that is not exponential to itself or the number of elements. Regular powers (to a reasonable degree) of the number of elements, constant times number of elements, other numerical operations with number of elements, and reasonably small numbers are all considered "reasonable", only something like n^n would be considered unreasonable since it's exponential to the number of elements.
 - Question 51 Creative Commons
-    - 
+    - <img src="https://i.postimg.cc/nhkZGzjR/Q51.jpg">
+    - Actual answer and explanation: A, Creative Commons gives creators of digital content the ability to indicate how their works can be legally used and distributed, enabling broad access to digital information. Creative Commons licenses only apply to works that were published with the license, so previously copyrighted work are not eligible to be legally used and distributed under Creative Commons (I think I didn't see the "previously copyrighted work" part). Creative Commons does allow owners to explain what ways their work can and can not be used or distribtued.
 - Question 60 Number of elements in one list but not both
-    - 
+    - <img src="https://i.postimg.cc/pdLvGHK2/Q60.jpg">
+    - Actual answer and explanation: D, see above image for code. The best way to do this question is to test all the code. Assume list1 = [10, 10, 20, 30, 40, 50, 60] and list2 = [20, 20, 40, 60, 80], the output should be 3.
+        - Option A: bothList = [10, 10, 20, 20, 20, 30, 40, 40, 50, 60, 60, 80], uniqueList as [10, 20, 30, 40, 50, 60, 80], so count = 12 - 7 = 5, not right
+        - Option B: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], so count = 7 + 5 - 10 = 2, not right
+        - Option C: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], so count = 6 + 4 - 10 = 0, not right
+        - Option D: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], uniqueList = [10, 20, 30, 40, 50, 60, 80], so count = 10 - 7 = 3, right
+    - I did test it with list1 = [] and list2 = [], and B gave me the right answer while D did not.
+        - But I guess it's safer to test the lists they gave you, but theoretically it should work for this one too
 
 ## 2023 Written Response Practice Exam 1
