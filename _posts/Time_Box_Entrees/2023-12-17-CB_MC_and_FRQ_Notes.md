@@ -2,8 +2,8 @@
 toc: true
 comments: false
 layout: post
-title: 2020 Practice Exam 1 MCQ and 2023 Written Response Practice Exam 1 Notes
-description: Notes for assigned Collegeboard tests 2020 Practice Exam 1 MCQ and 2023 Written Response Practice Exam 1
+title: 2020 Practice Exam 1 Blog Post
+description: Blog post for assigned Collegeboard test 2020 Practice Exam 1 MCQ with notes, time taken, and corrections
 type: tangibles
 courses: { compsci: {week: 17} }
 ---
@@ -76,7 +76,6 @@ courses: { compsci: {week: 17} }
         - Option B: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], so count = 7 + 5 - 10 = 2, not right
         - Option C: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], so count = 6 + 4 - 10 = 0, not right
         - Option D: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], uniqueList = [10, 20, 30, 40, 50, 60, 80], so count = 10 - 7 = 3, right
-    - I did test it with list1 = [] and list2 = [], and B gave me the right answer while D did not.
-        - But I guess it's safer to test the lists they gave you, but theoretically it should work for this one too
+    - I did test this with alternate lists and B worked, so I think I might've just done the math wrong for that test.
 
 ## 2023 Written Response Practice Exam 1

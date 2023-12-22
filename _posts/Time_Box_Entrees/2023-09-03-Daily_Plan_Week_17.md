@@ -19,10 +19,12 @@ courses: { compsci: {week: 17} }
 > Legal and Ethical Concerns student lesson homework
 
 ## Wednesday:
-> 
+> Worked on Collegeboard MCQ and blog post
 
 ## Thursday:
-> 
+> Safe Computing student lesson
+
+> Safe Computing student lesson homework
 
 ## Friday:
 > 
