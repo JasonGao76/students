@@ -27,4 +27,4 @@ courses: { compsci: {week: 17} }
 > Safe Computing student lesson homework
 
 ## Friday:
-> 
+> Last day before break, chill day

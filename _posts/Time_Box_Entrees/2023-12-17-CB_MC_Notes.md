@@ -77,5 +77,3 @@ courses: { compsci: {week: 17} }
         - Option C: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], so count = 6 + 4 - 10 = 0, not right
         - Option D: newList1 = [10, 20, 30, 40, 50, 60], newList2 = [20, 40, 60, 80], bothList = [10, 20, 20, 30, 40, 40, 50, 60, 60, 80], uniqueList = [10, 20, 30, 40, 50, 60, 80], so count = 10 - 7 = 3, right
     - I did test this with alternate lists and B worked, so I think I might've just done the math wrong for that test.
-
-## 2023 Written Response Practice Exam 1
