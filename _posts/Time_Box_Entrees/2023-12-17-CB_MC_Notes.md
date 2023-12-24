@@ -8,7 +8,7 @@ type: tangibles
 courses: { compsci: {week: 17} }
 ---
 
-## 2020 Pracice Exam 1 MCQ Notes
+## 2020 Practice Exam 1 MCQ Notes
 > Questions Googled and Notes on what Researched
 - Question 4
     - Overflow error is when program gets a number, value, or variable that it can't handle
