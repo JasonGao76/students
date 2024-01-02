@@ -62,33 +62,37 @@ courses: { compsci: {week: 18} }
         - Procedures have no iteration
     - Include in CPT project
         - Keep having user input, this will be done in many ways including the JWT login authentication, the user selecting classes and creating their character, the user selecting actions to take in the game, etc.
-        - Keep using lists, perhaps have a list 
-        - Procedure
-            - Procedure will need to be called so that's not an issue, but it needs to have parameters
+        - Keep using lists, perhaps have a list for inventory and character information
+        - ADD PROCEDURE WITH PARAMETERS AND ITERATION. Parameters can be used in procedures that calculate damage and health deduction and the paramters can be like currenthealth and resistance. Iteration can be to clean up repetitive code when it pops up, maybe when updating data to the data table or outputting character stats?
+            - Procedure will need to be called so that's not an issue, but it needs to have arguments in the call
         - Keep having output, perhaps after each turn output remaining HP, enemy HP, information about attacks and actions to take, etc.
 - Component B:
     - Parts missed
-        - 
+        - Nothing really missed
     - Include in CPT project
-        - 
+        - Record a short video showcasing the project working, just screenrecord it with windows key + g and then add captions using ClipChamp. Remember it's less than 1 minute long.
 - Component C:
     - Parts missed
-        - 
+        - Procedure doesn't have return which isn't necessary, but it would be good to add and it can be implemented with the procedure calculating damage (return the deducted health or health after the calculations).
+        - Procedure doesn't have parameters or iteration, see Component A.
     - Include in CPT project
-        - 
+        - Procedure with parameters or iteration, see Component A.
+        - List is present and fulfills the requirements, so keep the list and remember to update data (probably will do this when creating/updating character, maybe have a stat upgrade system with objects found?)
+- Question:
+    - Would be cool to include some documentation with this program like a ReadMe, Guide/Tips/Strategies, How-To-Play, etc.
+    - Not sure if this is 100% needed, but good to add
 
 > Question 2:
 - a. 
     - Parts missed
         - The CPT project NEEDS NEEDS NEEDS a procedure that will use iteration, so take any repetitive code and try to make it more concise with for/while loops.
     - Include in CPT project
-        - 
+        - Maybe add a button that outputs the users character stats and a loop can be used to do get requests from backend? Can try to do this with other requests like post. Think more about this with group.
 - b. 
     - Parts missed
-        - The CPT project NEEDS NEEDS NEEdS parameters to take in and calls with arguments.
+        - The CPT project NEEDS NEEDS NEEDS parameters to take in and calls with arguments.
     - Include in CPT project
+        - Likely need a procedure that calculates damage done and remaining health, so will have parameters there (currenthealth, resistance, anything that boosts/change damage dealt like attack or weapon).
+        - Ensure that it can be tested, and it probably will since you can use dummy numbers as the argument to test the math and output.
 - c.
-    - Parts missed
-        - 
-    - Include in CPT project
-        - 
+    - Remember to include list, see Q1 Component A and C. Think about alternate ways to make program work even if less efficient.
