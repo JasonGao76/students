@@ -24,5 +24,5 @@ courses: { compsci: {week: 18} }
 > See CB FRQ Notes
 
 ## Monday 1/8:
-> 
+> See Monday on Daily Plan (Teacher talked about some pointers for CPT and JWT)
 
