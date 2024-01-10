@@ -26,7 +26,7 @@ Licensing options include:
 + Proper citation is essential when using material created by others.
 
 ## <span style="color:cadetblue">Popcorn Hack #1</span>
-+ Can you give an two different examples of how you might use citations in everyday life? (1 chocolate per answer, 3 answers total)
++ Can you give an two different examples of how you might use citations in everyday life? (1 chocolate per answer, 3 answers total) Essays for English and reading research articles
 
 ## <span style="color:pink">Broad Access to Digital Information:</span>
 - Creative Commons, open source, and open access contribute to widespread access to digital content.
@@ -48,7 +48,7 @@ Licensing options include:
   - People can face fines and prison sentences depending on the severity of the case.
 
 # <span style="color:cadetblue">Popcorn Hack #2</span>
-If a person copies and earns $2,500 from plagiarized work what legal repercussions could they face? Would they face fines or prison sentences, and for how long?
+If a person copies and earns $2,500 from plagiarized work what legal repercussions could they face? Would they face fines or prison sentences, and for how long? Could go to prison AND be fined, up to potentially like tens of years and thousands of dollars.
 
 ## <span style="color:pink">Copyright and Intellectual Property</span>
 

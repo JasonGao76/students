@@ -26,3 +26,8 @@ courses: { compsci: {week: 18} }
 ## Monday 1/8:
 > See Monday on Daily Plan (Teacher talked about some pointers for CPT and JWT)
 
+## 1/10:
+> Teacher talk
+- Check for garbage and test to block it
+- Can test and monkey smash to see if it still works
+
