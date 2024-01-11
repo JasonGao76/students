@@ -19,13 +19,18 @@ courses: { compsci: {week: 18} }
 - Do Student Teaching #2 and Individual Review, prep for it
 
 ## Tuesday:
-> 
+> Talk on CPT Checkpoint #1 and expectations
+
+> Completed Student Team Teach Grading
+
+> Worked on Individual Review
 
 ## Wednesday:
-> 
+> Finished Individual Review and met with Mr. Lopez to briefly discuss it
+- Recorded median score of 0.98/1 and discussed briefly some extras and blog posts
 
 ## Thursday:
-> 
+> Worked on plan on Milanote board for Frontend screens
 
 ## Friday:
 > 
