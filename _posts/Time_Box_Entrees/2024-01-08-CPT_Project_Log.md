@@ -31,3 +31,7 @@ courses: { compsci: {week: 18} }
 - Check for garbage and test to block it
 - Can test and monkey smash to see if it still works
 
+## 1/11-1/12:
+> Work on and completed Milanote frontend screen planning
+
+> Ideation Checkpoint #1 Part A done on 1/12

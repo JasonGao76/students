@@ -33,4 +33,6 @@ courses: { compsci: {week: 18} }
 > Worked on plan on Milanote board for Frontend screens
 
 ## Friday:
-> 
+> Worked on Milanote board for Frontend screens and helped backend plan their database
+
+> Completed checkpoint #1 part A with Mr. Lopez
