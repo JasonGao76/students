@@ -37,4 +37,6 @@ courses: { compsci: {week: 18} }
 > Ideation Checkpoint #1 Part A done on 1/12
 
 ## 1/16
-> 
+> Created fork of each repository, WRONGJason from WRONG (frontend) and WRONGFlaskJason from WRONGFlask (backend)
+- Taught team how it works
+- Slack message explaining it: https://cs-p-hq.slack.com/archives/C06DUHZKVAL/p1705447571524659

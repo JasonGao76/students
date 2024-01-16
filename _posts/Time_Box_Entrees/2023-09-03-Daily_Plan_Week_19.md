@@ -12,10 +12,16 @@ courses: { compsci: {week: 19} }
 > MLK Day, no school
 
 ## Tuesday:
-> 
+> Standup meeting on forking, pull request, merges, main branch, git pull, etc.
+
+> Created fork of each repository, WRONGJason from WRONG (frontend) and WRONGFlaskJason from WRONGFlask (backend)
+- Taught team how it works
+- Slack message explaining it: https://cs-p-hq.slack.com/archives/C06DUHZKVAL/p1705447571524659
+
+> Created main screen
 
 ## Wednesday:
-> F
+> 
 
 ## Thursday:
 > 
