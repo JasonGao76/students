@@ -8,7 +8,7 @@ type: tangibles
 courses: { compsci: {week: 18} }
 ---
 
-## Friday 12/15:
+## 12/15:
 > General Notes for Project
 - Final decision on project: Turn-based Fantasy Tarkov-esque game
 - Various stats of characters or like equipment that increases stats
@@ -20,10 +20,10 @@ courses: { compsci: {week: 18} }
 - If defeated, leave and back to start
 - Can have like multiplayer or boss
 
-## Tuesday 1/2:
+## 1/2:
 > See CB FRQ Notes
 
-## Monday 1/8:
+## 1/8:
 > See Monday on Daily Plan (Teacher talked about some pointers for CPT and JWT)
 
 ## 1/10:
@@ -35,3 +35,6 @@ courses: { compsci: {week: 18} }
 > Work on and completed Milanote frontend screen planning
 
 > Ideation Checkpoint #1 Part A done on 1/12
+
+## 1/16
+> 

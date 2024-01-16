@@ -9,7 +9,7 @@ courses: { compsci: {week: 19} }
 ---
 
 ## Monday:
-> 
+> MLK Day, no school
 
 ## Tuesday:
 > 
