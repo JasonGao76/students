@@ -21,7 +21,9 @@ courses: { compsci: {week: 19} }
 > Created main screen
 
 ## Wednesday:
-> 
+> Presented Student Teaching Part 2 to Mr. Lopez, earned 0.94/1
+
+> Worked on main screen
 
 ## Thursday:
 > 
