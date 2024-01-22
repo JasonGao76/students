@@ -26,7 +26,7 @@ courses: { compsci: {week: 19} }
 > Worked on main screen
 
 ## Thursday:
-> 
+> Worked on screens, helped team with student teaching part 2
 
 ## Friday:
-> 
+> Worked on screens, helped team with student teaching part 2
