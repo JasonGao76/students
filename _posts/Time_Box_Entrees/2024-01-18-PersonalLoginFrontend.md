@@ -10,6 +10,10 @@ courses: { compsci: {week: 19} }
 
 <head>
 <style>
+    body {
+        /* placeholder */
+    }
+
     h1 {
         /* placeholder */
     }
@@ -18,4 +22,6 @@ courses: { compsci: {week: 19} }
 
 <body>
     <h1>Welcome Back!</h1>
+
+
 </body>
