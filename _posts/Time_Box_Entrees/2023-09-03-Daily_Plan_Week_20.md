@@ -18,10 +18,14 @@ courses: { compsci: {week: 20} }
 > Planned student lesson with team and worked on it
 
 ## Tuesday:
-> 
+> Worked on and completed student lesson
+- Flask_user library yanked, asked Lopez and Mortensen about how to get around
+- Alternative found, need to change basically all of it
+
+> Help figure out the information and roles of other team members
 
 ## Wednesday:
-> 
+> Authenticate, redirect GET
 
 ## Thursday:
 > 
