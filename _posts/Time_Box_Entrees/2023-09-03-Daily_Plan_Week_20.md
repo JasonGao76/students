@@ -25,7 +25,11 @@ courses: { compsci: {week: 20} }
 > Help figure out the information and roles of other team members
 
 ## Wednesday:
-> Authenticate, redirect GET
+> Teacher talk (the whole period)
+- Try more things, make more mistakes
+- Get familiar with terms and process of API
+    - Authenticate, redirect, GET
+- Don't go off course with lesson, look at teacher_portfolio and cpt repository for code to go off of and explanations
 
 ## Thursday:
 > 
