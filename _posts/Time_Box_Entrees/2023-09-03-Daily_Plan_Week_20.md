@@ -32,7 +32,17 @@ courses: { compsci: {week: 20} }
 - Don't go off course with lesson, look at teacher_portfolio and cpt repository for code to go off of and explanations
 
 ## Thursday:
-> 
+> Talk on API and Postman
+- Postman does what browser would do, supplement browser
+- See saved Postman things
+- First manually log in using the POST request, send to http://127.0.0.1:8086/api/users/authenticate and add JSON data for user in body (make sure to change it to JSON)
+- Then can log in using GET request, send to http://127.0.0.1:8086/api/users to see all data
+- Click the </> to see the code that's run
+
+> Fixed SASS thing
+- Just add a class to where you want to add the styling too
+- Then add the styling to style.scss using the .(name of class)
+- Then just make again and it should apply
 
 ## Friday:
 > 

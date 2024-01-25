@@ -1,12 +1,12 @@
 body {
-  font-family: "Arial", sans-serif;
-  background-color: #3498db;
+  font-family: "Arial", sans-serif !important;
+  background-color: #3498db !important;
 }
 body h1 {
-  color: white;
+  color: white !important;
 }
 body p {
-  color: #8bc4ea;
+  color: #8bc4ea !important;
 }
 
 /*# sourceMappingURL=test.css.map */

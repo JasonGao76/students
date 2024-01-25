@@ -8,23 +8,25 @@ type: hacks
 courses: { compsci: {week: 19} }
 ---
 
+<!-- <link rel="stylesheet" href="test.css">  -->
+
 <head>
-<style>
+<!-- <style>
     body {
         /* placeholder */
     }
     h1 {
         /* placeholder */
     }
-</style>
+</style> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="_posts/Time_Box_Entrees/test.css"> 
+  <!-- <link rel="stylesheet" href="test.css">  -->
   <!-- link to css file dont work for some reason, check inspect and network to see path and try to find what's wrong -->
 </head>
 
 <body>
-    <h1>Welcome Back!</h1>
+    <h1 class="testing">Welcome Back!</h1>
     <h2></h2>
 
 </body>
