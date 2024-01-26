@@ -45,4 +45,9 @@ courses: { compsci: {week: 20} }
 - Then just make again and it should apply
 
 ## Friday:
-> 
+> Work on frontend page, did some styling and added input form
+- Do need to do a lot more, especially with the backend
+
+> Student lesson
+- @token_required decorator
+- See the actual page, good snippets of code to yoink

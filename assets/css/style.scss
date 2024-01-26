@@ -88,6 +88,44 @@
     background-color: #e70f0f;
   }
 
-  .testing {
-    font-family: "Arial", sans-serif !important;
+
+  /* Below is stuff for JWT login page */
+  $loginfont: Cambria;
+  $nicepurple: #a080e2;
+  $niceblue: #71bbe9;
+
+  .welcome {
+    font-size: 50px;
+    font-family: $loginfont;
+    color: $nicepurple;
+  }
+
+  .promptinfo {
+    font-size: 30px;
+    font-family: $loginfont;
+    color: $nicepurple;
+  }
+
+  .inputusername {
+    font-size: 20px;
+    font-family: $loginfont;
+    color: $niceblue;
+  }
+
+  .inputpassword {
+    font-size: 20px;
+    font-family: $loginfont;
+    color: $niceblue;
+  }
+
+  .inputusernamebox {
+    font-size: 20px;
+    font-family: $loginfont;
+    color: black;
+  }
+
+  .inputpasswordbox {
+    font-size: 20px;
+    font-family: $loginfont;
+    color: black;
   }

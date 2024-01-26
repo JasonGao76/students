@@ -11,22 +11,34 @@ courses: { compsci: {week: 19} }
 <!-- <link rel="stylesheet" href="test.css">  -->
 
 <head>
-<!-- <style>
+<style>
     body {
-        /* placeholder */
+      background-color: #a080e2 /* no work :( */
     }
-    h1 {
-        /* placeholder */
-    }
-</style> -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="test.css">  -->
-  <!-- link to css file dont work for some reason, check inspect and network to see path and try to find what's wrong -->
+</style>
 </head>
 
-<body>
-    <h1 class="testing">Welcome Back!</h1>
-    <h2></h2>
-
+<body class="loginfrontend">
+    <!-- Welcome -->
+    <h1 class="welcome">Welcome Back!</h1>
+    <!-- Prompt for info -->
+    <h2 class="promptinfo">Please enter your information below!</h2>
+    <label for="inputusername" class="inputusername">Enter your username here:</label><br>
+    <input type="text" class="inputusernamebox"><br>
+    <label for="inputpassword" class="inputpassword">Enter your password here: </label><br>
+    <input type="text" class="inputpasswordbox"><br>
+    <button onclick="storeusernamepassword()">Submit</button>
+    <!-- <form action="/submit_form (url for where to send info to)" method="post">
+        <label for="userInput">Enter something:</label>
+        <input type="text" id="userInput" name="userInput">
+        <button type="submit">Submit</button>
+    </form> -->
+    <script>
+        function storeusernamepassword() {
+            var username = document.getElementById('inputusername');
+            var password = document.getElementById('inputpassword');
+            console.log(username)
+            console.log(password)
+        }
+    </script>
 </body>
