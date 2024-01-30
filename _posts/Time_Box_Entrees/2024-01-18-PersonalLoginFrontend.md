@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Login Page
 description: Frontend login page for JWT authentication
-type: hacks
+type: tangibles
 courses: { compsci: {week: 19} }
 ---
 
@@ -24,21 +24,43 @@ courses: { compsci: {week: 19} }
     <!-- Prompt for info -->
     <h2 class="promptinfo">Please enter your information below!</h2>
     <label for="inputusername" class="inputusername">Enter your username here:</label><br>
-    <input type="text" class="inputusernamebox"><br>
+    <input type="text" name="uid" id="uid" required><br>
     <label for="inputpassword" class="inputpassword">Enter your password here: </label><br>
-    <input type="text" class="inputpasswordbox"><br>
-    <button onclick="storeusernamepassword()">Submit</button>
-    <!-- <form action="/submit_form (url for where to send info to)" method="post">
-        <label for="userInput">Enter something:</label>
-        <input type="text" id="userInput" name="userInput">
-        <button type="submit">Submit</button>
-    </form> -->
-    <script>
-        function storeusernamepassword() {
-            var username = document.getElementById('inputusername');
-            var password = document.getElementById('inputpassword');
-            console.log(username)
-            console.log(password)
-        }
+    <input type="password" name="password" id="password" required><br>
+    <button onclick="login()">Submit</button>
+    <script type="module">
+        import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
+        // placeholder
+        function login() {
+            var username = document.getElementById('uid').value;
+            var password = document.getElementById('password').value;
+            var url = uri + '/api/users/authenticate'
+            var requestbody = {
+                uid: username,
+                password: password,
+            };
+            //e
+            var authOptions = {
+                ...options,
+                method: 'POST',
+                cache: 'no-cache',
+                body: JSON.stringify(requestbody)
+            }
+            //e
+            fetch(url, authOptions)
+            .then(response => {
+                if (!response.ok) {
+                    const errorMsg = 'Login error: ' + response.status;
+                    console.log(errorMsg);
+                    return;
+                }
+                window.location.href = "{{site.baseurl}}/data/database";
+            })
+            .catch(err => {
+                console.error(err);
+            });
+        };
+        //e
+        window.login = login;
     </script>
 </body>
