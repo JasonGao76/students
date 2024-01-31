@@ -6,15 +6,14 @@ title: Login Page
 description: Frontend login page for JWT authentication
 type: tangibles
 courses: { compsci: {week: 19} }
+permalink: /loginpage
 ---
-
-<!-- <link rel="stylesheet" href="test.css">  -->
 
 <head>
 <style>
     body {
       background-color: #a080e2 /* no work :( */
-    }
+    } 
 </style>
 </head>
 
@@ -52,6 +51,7 @@ courses: { compsci: {week: 19} }
                 if (!response.ok) {
                     const errorMsg = 'Login error: ' + response.status;
                     console.log(errorMsg);
+                    window.location.href = "{{site.baseurl}}/authorizationfail";
                     return;
                 }
                 window.location.href = "{{site.baseurl}}/data/database";
@@ -60,7 +60,6 @@ courses: { compsci: {week: 19} }
                 console.error(err);
             });
         };
-        //e
         window.login = login;
     </script>
 </body>
