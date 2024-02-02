@@ -28,13 +28,29 @@ courses: { compsci: {week: 21} }
 > Work on spot check and individual JWT
 
 ## Tuesday:
-> 
+> Worked on spot check and individual JWT
 
 ## Wednesday:
-> 
+> CPT Spot check, didn't get to go so spent time polishing it up
 
 ## Thursday:
-> 
+> Student teach; SASS / Javascript Login and Signup Page
+- SASS has nesting, variables, etc.
+- Frontend can give error status code like 403
+- Response code - Send request to backend, can get different response codes depending on what happens, 200 is success --> 403 is no authentication, 404 is page doesn't exist
+- Common HTML stuff includes input fields (can set type to password), containers to group elements, and common properties include buttons, placeholders, class
+- Hack 1: SASS is extension of CSS
+- Hack 2: Lower one has SASS, top has no SASS
+- Hack 3: If get 403, means no authentication and should try logging in or getting cookie
+- 401 is never authenticated whatever, 403 is user but try to access smth only admins can access
+- To create database
+    - Get user info, make frontend, make backend handling, make api
+- GET method to get authentication before showing page and add error handling
+
+> When making new column, delete all backups and copies of database then run migrate.sh and make sure table view is set to users or whatever you're trying to look at
+
+> Did CPT Spot check, got 0.92 for first point and 0.91 for second and third point
+- Since >0.9 for all three, counts as 2/2
 
 ## Friday:
 > 
