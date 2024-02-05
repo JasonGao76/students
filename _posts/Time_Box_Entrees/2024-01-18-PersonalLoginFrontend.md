@@ -19,16 +19,18 @@ permalink: /loginpage
 
 <body class="loginfrontend">
     <!-- Welcome -->
-    <h1 class="welcome">Welcome Back!</h1>
-    <!-- Prompt for info -->
-    <h2 class="promptinfo">Please enter your information below!</h2>
-    <label for="inputusername" class="inputusername">Enter your username here:</label><br>
+    <h1 class="bigtitle">Welcome Back!</h1>
+    <!-- Prompt for login info -->
+    <h2 class="mediumtitle">Please enter your information below!</h2>
+    <label for="inputusername" class="smalltitle">Enter your username here:</label><br>
     <input type="text" name="uid" id="uid" required><br>
-    <label for="inputpassword" class="inputpassword">Enter your password here: </label><br>
+    <label for="inputpassword" class="smalltitle">Enter your password here: </label><br>
     <input type="password" name="password" id="password" required><br>
-    <button onclick="login()">Submit</button>
+    <button class="buttons" onclick="login()">Login</button><br>
+    <h2 class="mediumtitle">Or if you need to create a user, click below to go to the signup page!</h2>
+    <button class="buttons" onclick="window.location.href='{{site.baseurl}}/signup'">Go to Signup</button>
     <script type="module">
-        import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
+        import {uri, options} from '{{site.baseurl}}/assets/js/api/config.js';
         // placeholder
         function login() {
             var username = document.getElementById('uid').value;
@@ -38,14 +40,14 @@ permalink: /loginpage
                 uid: username,
                 password: password,
             };
-            //e
+            //
             var authOptions = {
                 ...options,
                 method: 'POST',
                 cache: 'no-cache',
                 body: JSON.stringify(requestbody)
             }
-            //e
+            //
             fetch(url, authOptions)
             .then(response => {
                 if (!response.ok) {

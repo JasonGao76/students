@@ -91,31 +91,27 @@
 
   /* Below is stuff for JWT login page */
   $loginfont: Cambria;
-  $nicepurple: #a080e2;
-  $niceblue: #71bbe9;
+  $lightpurple: #a080e2;
+  $lightblue: #71bbe9;
+  $lightgreen: #85e280;
+  $darkgreen: #165918;
 
-  .welcome {
+  .bigtitle {
     font-size: 50px;
     font-family: $loginfont;
-    color: $nicepurple;
+    color: $lightpurple;
   }
 
-  .promptinfo {
+  .mediumtitle {
     font-size: 30px;
     font-family: $loginfont;
-    color: $nicepurple;
+    color: $lightpurple;
   }
 
-  .inputusername {
+  .smalltitle {
     font-size: 20px;
     font-family: $loginfont;
-    color: $niceblue;
-  }
-
-  .inputpassword {
-    font-size: 20px;
-    font-family: $loginfont;
-    color: $niceblue;
+    color: $lightblue;
   }
 
   .inputusernamebox {
@@ -128,4 +124,12 @@
     font-size: 20px;
     font-family: $loginfont;
     color: black;
+  }
+
+  .buttons {
+    background-color: $lightgreen;
+    color: black;
+    border: 4px solid $darkgreen;
+    border-radius: 6px;
+    padding: 8px 8px;
   }
