@@ -2,14 +2,15 @@
 layout: post
 title: Database Get
 hide: true
-description: An advanced example of database CRUD (Create, Read, Update, Delete).  This articles is focussed on Read.  Each operation works asynchronously between JavaScript and a Python/Flask backend Database.  This requires a set of Python RESTful API services for Get, Put, Delete, and Update.
+description: 
 permalink: /data/database
 ---
 
-## SQL Database Fetch
-
 <!-- HTML table layout for page.  The table is filled by JavaScript below. 
 -->
+<h1 class="bigtitle">SQL Database Fetch</h1>
+<h1 class="mediumtitle">Database</h1>
+<h2 class="smalltitle">An advanced example of database CRUD (Create, Read, Update, Delete).  This articles is focussed on Read.  Each operation works asynchronously between JavaScript and a Python/Flask backend Database.  This requires a set of Python RESTful API services for Get, Put, Delete, and Update.</h2>
 <table>
   <thead>
   <tr>
@@ -17,6 +18,7 @@ permalink: /data/database
     <th>ID</th>
     <th>Age</th>
     <th>Month</th>
+    <th>Role</th>
   </tr>
   </thead>
   <tbody id="result">
@@ -73,16 +75,19 @@ The script is laid out in a sequence (no function) and will execute when page is
             const id = document.createElement("td");
             const age = document.createElement("td");
             const month = document.createElement("td");
+            const role = document.createElement("td");
             // data is specific to the API
             name.innerHTML = row.name; 
             id.innerHTML = row.uid; 
             age.innerHTML = row.age; 
             month.innerHTML = row.month;
+            role.innerHTML = row.role;
             // this builds td's into tr
             tr.appendChild(name);
             tr.appendChild(id);
             tr.appendChild(age);
             tr.appendChild(month);
+            tr.appendChild(role);
             // append the row to table
             resultContainer.appendChild(tr);
           }
