@@ -21,11 +21,13 @@ permalink: /signup
     <input type="text" name="dob" id="dob" required><br>
     <label for="inputmonth" class="smalltitle">Birth month:</label><br>
     <input type="text" name="month" id="month" required><br>
+    <!-- <label for="inputrole" class="smalltitle">Role (User or Admin):</label><br>
+    <input type="text" name="role" id="role" required><br> -->
     <!-- Submit Button -->
     <button class="buttons" onclick="signup()">Submit</button>  
     <!-- Button to go back to login page -->
     <h2 class="mediumtitle">Or, go back to login here</h2>
-    <button class="buttons" onclick="window.location.href='{{site.baseurl}}/signup'">Back to Login</button>
+    <button class="buttons" onclick="window.location.href='{{site.baseurl}}/loginpage'">Back to Login</button>
     <script type="module">
         import { uri, options } from '{{site.baseurl}}/assets/js/api/config.js';
         function signup() {
@@ -37,11 +39,13 @@ permalink: /signup
             uid: document.getElementById("uid").value,
             password: document.getElementById("password").value,
             dob: document.getElementById("dob").value,
-            month: document.getElementById("month").value
+            month: document.getElementById("month").value,
+            // role: document.getElementById("role").value
             };
             // Create options for authorization
             const authOptions = {
             ...options,
+            // mode: 'no-cors',
             method: 'POST',
             cache: 'no-cache',
             body: JSON.stringify(body)
@@ -52,6 +56,7 @@ permalink: /signup
                 if (!response.ok) {
                     const errorMsg = 'Signup error: ' + response.status;
                     console.log(errorMsg);
+                    window.location.href = "{{site.baseurl}}/signupfail";
                     return;
                 }
                 window.location.href = "{{site.baseurl}}/data/database";

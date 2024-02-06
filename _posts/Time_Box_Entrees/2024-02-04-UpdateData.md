@@ -20,6 +20,8 @@ permalink: /updatedata
     <input type="text" name="dob" id="dob" required><br>
     <label for="inputmonth" class="smalltitle">New Birth month:</label><br>
     <input type="text" name="month" id="month" required><br>
+    <label for="inputrole" class="smalltitle">New Role:</label><br>
+    <input type="text" name="role" id="role" required><br>
     <!-- Prompt to submit -->
     <h2 class="smalltitle">Submit Updated Data Here!</h2>
     <button class="buttons" onclick="updatedata()">Submit</button>
@@ -36,7 +38,8 @@ permalink: /updatedata
             password: document.getElementById("password").value,
             name: document.getElementById("name").value,
             dob: document.getElementById("dob").value,
-            month: document.getElementById("month").value
+            month: document.getElementById("month").value,
+            role: document.getElementById("role").value
         };
         const AuthOptions = {
             mode: 'cors', // no-cors, *cors, same-origin
@@ -54,7 +57,8 @@ permalink: /updatedata
             .then(response => {
                 // check for response errors and display
                 if (response.status !== 200) {
-                    window.location.href = "{{site.baseurl}}/loginpage";
+                    window.location.href = "{{site.baseurl}}/authorizationfail";
+                    return;
                 }
                 // valid response will contain JSON data
                 response.json().then(data => {

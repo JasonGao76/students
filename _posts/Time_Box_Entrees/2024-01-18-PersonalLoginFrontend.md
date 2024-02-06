@@ -9,14 +9,6 @@ courses: { compsci: {week: 19} }
 permalink: /loginpage
 ---
 
-<head>
-<style>
-    body {
-      background-color: #a080e2 /* no work :( */
-    } 
-</style>
-</head>
-
 <body class="loginfrontend">
     <!-- Welcome -->
     <h1 class="bigtitle">Welcome Back!</h1>
@@ -53,7 +45,7 @@ permalink: /loginpage
                 if (!response.ok) {
                     const errorMsg = 'Login error: ' + response.status;
                     console.log(errorMsg);
-                    window.location.href = "{{site.baseurl}}/authorizationfail";
+                    window.location.href = "{{site.baseurl}}/authenticationfail";
                     return;
                 }
                 window.location.href = "{{site.baseurl}}/data/database";

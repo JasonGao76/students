@@ -53,4 +53,4 @@ courses: { compsci: {week: 21} }
 - Since >0.9 for all three, counts as 2/2
 
 ## Friday:
-> 
+> Continue working on individual JWT
