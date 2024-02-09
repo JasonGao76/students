@@ -17,10 +17,16 @@ courses: { compsci: {week: 22} }
 - Can't go since Nathan isn't here and Will and Grayson aren't fully done
 
 ## Wednesday:
-> 
+> Did a spot check
+
+> Work on CPT
 
 ## Thursday:
-> 
+> Work on CPT
 
 ## Friday:
-> 
+> Talk
+- Domain Name Services
+- Different domain names to redirect ip address
+- Map to public ip addresses
+- Send info to public ip addresses
