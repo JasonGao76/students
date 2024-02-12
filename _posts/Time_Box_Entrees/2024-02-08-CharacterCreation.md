@@ -71,6 +71,8 @@ permalink: /charactercreation
                     <th>Class</th>
                     <th>Health</th>
                     <th>Attack</th>
+                    <th>Range</th>
+                    <th>Movement</th>
                 </tr>
                 </thead>
                 <tbody id="result">
@@ -81,9 +83,10 @@ permalink: /charactercreation
     </div>
     <!-- Submit button -->
     <br>
-    <button class="buttons" onclick="window.location.href='{{site.baseurl}}/charactercreation'">Submit</button>
+    <button class="buttons" onclick="submitinfo()">Submit</button>
     <img class="candle" src="https://i.postimg.cc/wj2FYHpM/candle-removebg-preview.png">
-    <script>
+    <script type="module">
+        // Show info and fetch data to show it too
         function showinfo() {
             var selectedclass = document.getElementById("class").value;
             var infodiv = document.getElementById("classInfo");
@@ -97,7 +100,113 @@ permalink: /charactercreation
             if (selectedinfodiv) {
                 selectedinfodiv.style.display = "block";
             }
+            // Fetch stuff
+            const url = "http://127.0.0.1:8086/api/classes";
+            const options = {
+                method: 'GET', // *GET, POST, PUT, DELETE, etc.
+                mode: 'cors', // no-cors, *cors, same-origin
+                cache: 'default', // *default, no-cache, reload, force-cache, only-if-cached
+                credentials: 'include', // include, same-origin, omit
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const resultContainer = document.getElementById("result");
+            fetch(url, options)
+                // response is a RESTful "promise" on any successful fetch
+                .then(response => {
+                // check for response errors and display
+                if (response.status !== 200) {
+                    const errorMsg = 'Database response error: ' + response.status;
+                    console.log(errorMsg);
+                    const tr = document.createElement("tr");
+                    const td = document.createElement("td");
+                    td.innerHTML = errorMsg;
+                    tr.appendChild(td);
+                    resultContainer.appendChild(tr);
+                    return;
+                }
+                // valid response will contain JSON data
+                response.json().then(data => {
+                    console.log(data);
+                    for (const row of data) {
+                        // tr and td build out for each row
+                        const tr = document.createElement("tr");
+                        const classname = document.createElement("td");
+                        const health = document.createElement("td");
+                        const attack = document.createElement("td");
+                        const range = document.createElement("td");
+                        const movement = document.createElement("td");
+                        // data is specific to the API
+                        classname.innerHTML = row.classname; 
+                        health.innerHTML = row.health; 
+                        attack.innerHTML = row.attack;
+                        range.innerHTML = row.range;
+                        movement.innerHTML = row.movement;
+                        // this builds td's into tr
+                        tr.appendChild(classname);
+                        tr.appendChild(health);
+                        tr.appendChild(attack);
+                        tr.appendChild(range);
+                        tr.appendChild(movement);
+                        // append the row to table
+                        resultContainer.appendChild(tr);
+                    }
+                })
+            })
+            // Catch fetch errors
+            .catch(err => {
+                console.error(err);
+                const tr = document.createElement("tr");
+                const td = document.createElement("td");
+                td.innerHTML = err + ": " + url;
+                tr.appendChild(td);
+                resultContainer.appendChild(tr);
+            });
         }
-        // define fetch stuff
+        function submitinfo() {
+            const url = "http://127.0.0.1:8086/api/classes";
+            // get class information from table (which should be updated with the get request)
+            var table = document.getElementById("results");
+            var row = table.getElementsByTagName("tr");
+            var cells = row[0].getElementsByTagName("td");
+            const body = {
+                name: document.getElementById("name").value,
+                classname: cells[0].innerText,
+                health: cells[1].innerText,
+                attack: cells[2].innerText,
+                range: cells[3].innerText,
+                movement: cells[4].innerText
+            };
+            const AuthOptions = {
+                mode: 'cors', // no-cors, *cors, same-origin
+                credentials: 'include', // include, same-origin, omit
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                method: 'PUT', // Override the method property
+                cache: 'no-cache', // Set the cache property
+                body: JSON.stringify(body)
+            };
+            // fetch the API
+            fetch(url, AuthOptions)
+            // response is a RESTful "promise" on any successful fetch
+            .then(response => {
+                // check for response errors and display
+                if (response.status !== 200) {
+                    // window.location.href = "{{site.baseurl}}/authorizationfail"; *update with link for error
+                    return;
+                }
+                // valid response will contain JSON data
+                response.json().then(data => {
+                    window.location.href='{{site.baseurl}}/gamescreen'
+                })
+            })
+            // catch fetch errors (ie ACCESS to server blocked)
+            .catch(err => {
+            console.log(err)
+            });
+        }
+        window.submitinfo = submitinfo;
     </script>
 </body>
