@@ -2,6 +2,7 @@
 layout: post
 title: N@TM Reflection
 hide: true
+comments: true
 description: Night at the Museum Experience Reflection for Will, Rayyan, Grayson, Nathan, and Jason
 type: tangibles
 courses: { compsci: {week: 22} }
