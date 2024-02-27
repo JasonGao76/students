@@ -17,7 +17,7 @@ courses: { compsci: {week: 23} }
 - ii. The second program code segment must show where your student-developed procedure is being called in your program.
 
 > Procedure answer
-- The procedure's definition: <a href = "https://i.postimg.cc/hjXggxN5/Procedure-1.png">
+- The procedure's definition: ("https://i.postimg.cc/hjXggxN5/Procedure-1.png")
 - The procedure's call: <a href = "https://i.postimg.cc/0QhvNjs2/Procedure-2.png">
 - The HTML the procedure is referring: <a href = "https://i.postimg.cc/02RxRznV/Procedure-3.png">
 
