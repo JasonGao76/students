@@ -17,7 +17,9 @@ courses: { compsci: {week: 22} }
         - DO ON main.py
 
 ## Tuesday:
-> 
+> Talk
+- Went over ML and Titanic dataset
+- Played around and learned/broke down the code behind the TItanic survivability calculator
 
 ## Wednesday:
 > 
