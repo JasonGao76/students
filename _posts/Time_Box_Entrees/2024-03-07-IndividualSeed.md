@@ -22,7 +22,7 @@ courses: { compsci: {week: 24} }
 # 90% Seed
 > Individual Progress. Individual maintains an at-a-glance. AP preparation progress, Key commits, GitHub Analytics, etc. Student uses their blog to start each individual review. This should be used to support accomplishments.
 - AP preparation progress
-    - 
+    - Prepare for AP exam requirements in blog post "Individual Final", all AP requirements met and code snippets prepared.
 - Key commits
     - 
 - GitHub Analytics
