@@ -2,10 +2,10 @@
 toc: true
 comments: false
 layout: post
-title: Daily Plan Week 22
-description: Daily plan for week 22
+title: Daily Plan Week 24
+description: Daily plan for week 24
 type: plans
-courses: { compsci: {week: 22} }
+courses: { compsci: {week: 24} }
 ---
 
 ## Monday:
