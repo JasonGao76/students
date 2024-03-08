@@ -28,7 +28,11 @@ courses: { compsci: {week: 24} }
 > Polish debugging procedures
 
 > Finish blog post for seed
+- https://jasongao76.github.io/students/
 
 ## Friday:
-> 
+> Debugging review, completed frontend and backend debugging with nothing wrong and everything works as intended
+- Earned 1.87/2
+
+
 

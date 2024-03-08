@@ -16,6 +16,7 @@ courses: { compsci: {week: 24} }
     - As a team in the begining of CPT project, we worked together to figure out forks in GitHub in order to avoid more merge conflicts. We spent time experimenting with various forks, pull requests, syncs, and more.
     - Here is a screenshot of the TL:DR slack message I sent in our group chat summarizing what we went over: <img src="https://i.postimg.cc/hP067N8X/Foster-Learning-1.png">
     - Here are the forks we made of the frontend and backend: <img src="https://i.postimg.cc/bvZBWJ7n/Foster-Learning-2.png"> <img src="https://i.postimg.cc/3xSqtpc7/Foster-Learning-3.png">
+
 > Completion of all 90% items below.
 - See below.
 
