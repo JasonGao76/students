@@ -13,11 +13,13 @@ courses: { compsci: {week: 24} }
 - 
 
 ## Tuesday:
-> Use breakpoints (through inspect --> sources) and step over to debug (frontend debugging)
-- Go through errors / code step by step to see how things are running and being defined
-- Run main.py in debug mode to do same (go step by step, see what is being defined as what, etc) using breakpoints in VSCode (backend debugging)
-    - Python Debugger: Debug Python File
-        - DO ON main.py
+> Breakpoint/Debugging Talk
+- Frontend
+    - Open frontend in browser --> inspect --> sources (might need to open file and refresh to see code) --> place a breakpoint in the fetch code for a request by clicking on the line number --> run the request on the frontend --> breakpoint should stop the program
+    - Go through errors / code step by step to see how things are running and being defined
+- Backend
+    - Place breakpoint in backend VSCode in the api code for where functions/reqeusts are defined (hover over the line number and then click the red circle next to it) --> go to main.py file and run "Python Debugger: Debug Python File" (click the dropdown next to the arrow/play button) ON MAIN.PY --> go to frontend and send the request (where the breakpoint is) to backend --> VSCode will highlight and stop the program
+    - Go step by step, see what is being defined as what in the top left, etc.
 
 ## Wednesday:
 > Talk
@@ -34,5 +36,7 @@ courses: { compsci: {week: 24} }
 > Debugging review, completed frontend and backend debugging with nothing wrong and everything works as intended
 - Earned 1.87/2
 
+> Individual review for seed, everything went well but I had a little too much info
+- Earned 3/3
 
-
+> Helped team and others with debugging and individual review

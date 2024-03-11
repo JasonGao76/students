@@ -18,4 +18,9 @@ Unit4:
   title: CPT
   description: Create Performance Task
   start: 13
-  end: 25
+  end: 23
+Unit5:
+  title: Machine Learning
+  description: Trimester 3 working with machine learning
+  start: 24
+  end: 35
