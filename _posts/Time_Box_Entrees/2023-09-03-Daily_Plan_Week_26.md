@@ -9,7 +9,9 @@ courses: { compsci: {week: 26} }
 ---
 
 ## Monday:
-> 
+> Work on CB reflection
+- Finished going over incorrect/confusing questions
+- Currently working on hacks for frequently missed questions
 
 ## Tuesday:
 > 
