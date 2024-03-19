@@ -14,7 +14,13 @@ courses: { compsci: {week: 26} }
 - Currently working on hacks for frequently missed questions
 
 ## Tuesday:
-> 
+> Finished Collegeboard review
+
+> Did Collegeboard review with Mr. Lopez
+- 2.8/3
+
+> Abandoned incorporating ML with personal CPT last trimester, planned and work with team to create new project on shared repository
+- Likely be too difficult to completely reshape CPT api and model while keeping project together
 
 ## Wednesday:
 > 
