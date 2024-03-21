@@ -23,10 +23,13 @@ courses: { compsci: {week: 26} }
 - Likely be too difficult to completely reshape CPT api and model while keeping project together
 
 ## Wednesday:
-> 
+> Work on new ML
 
 ## Thursday:
-> 
+> Talk about Data Structure project
+- Check Canvas for requirements
+- Each person have their own part on frontend, backend, and backend interaction
+- Work in larger group of 8
 
 ## Friday:
 > 
