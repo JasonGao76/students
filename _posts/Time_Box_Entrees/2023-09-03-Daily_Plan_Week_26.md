@@ -32,4 +32,5 @@ courses: { compsci: {week: 26} }
 - Work in larger group of 8
 
 ## Friday:
-> 
+> Work on new ML
+- Was mostly done, but realized we still had to figure out having the frontend get the probability from the backend, so there's a lot more to do
