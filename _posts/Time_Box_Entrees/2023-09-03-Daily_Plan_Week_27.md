@@ -20,7 +20,8 @@ courses: { compsci: {week: 27} }
 > Finish incorporating ML into CPT project
 
 ## Thursday:
-> 
+> Polish incorporating ML into CPT project
+- Only thing left is to maybe make the code more organized (only train once, separate file for the stuff in the new teacher 2.0 page)
 
 ## Friday:
 > 
