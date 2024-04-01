@@ -24,4 +24,4 @@ courses: { compsci: {week: 27} }
 - Only thing left is to maybe make the code more organized (only train once, separate file for the stuff in the new teacher 2.0 page)
 
 ## Friday:
-> 
+> Create post on GitHub for part 2: https://github.com/nighthawkcoders/teacher_portfolio/issues/120#issuecomment-2027715612
