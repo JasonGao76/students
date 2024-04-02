@@ -16,7 +16,9 @@ courses: { compsci: {week: 28} }
 - Idea: Other group used covid dataset to give risk of getting covid (high, med, low), and one of the parameters was like risk rate. So what if we used our titanic ML using age, fare (wealth), etc. to determine that rate and then feed that rate into the covid ml? Theme can be like if covid existed in the 1900s, would yall have died or smth.
 
 ## Tuesday:
-> 
+> Completely fixed covid CPT/ML with other team
+
+> Start hybrid / combining ML
 
 ## Wednesday:
 > 
