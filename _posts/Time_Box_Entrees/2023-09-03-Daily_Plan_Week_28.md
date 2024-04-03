@@ -18,10 +18,10 @@ courses: { compsci: {week: 28} }
 ## Tuesday:
 > Completely fixed covid CPT/ML with other team
 
-> Start hybrid / combining ML
+> Start hybrid / combining ML for Data Structure project
 
 ## Wednesday:
-> 
+> Work on Data Structure project
 
 ## Thursday:
 > 
