@@ -24,7 +24,7 @@ courses: { compsci: {week: 28} }
 > Work on Data Structure project
 
 ## Thursday:
-> 
+> Work on Data Structure project
 
 ## Friday:
-> 
+> Chill, day before break
