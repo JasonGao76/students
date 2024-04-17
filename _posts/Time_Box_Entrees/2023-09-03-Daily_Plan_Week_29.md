@@ -16,7 +16,7 @@ courses: { compsci: {week: 29} }
 > Deployment Quiz
 
 ## Wednesday:
-> 
+> Work on Data Structures Write Up
 
 ## Thursday:
 > 
