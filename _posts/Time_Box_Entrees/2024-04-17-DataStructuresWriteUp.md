@@ -12,16 +12,23 @@ courses: { compsci: {week: 29} }
 - Blog Python Model code and SQLite Database.
     - From VSCode using SQLite3 Editor, show your unique collection/table in database, display rows and columns in the table of the SQLite database.
         - <img src="https://i.postimg.cc/mD1zwY7g/Collections-1.png">
+        - From CPT: <img src="https://i.postimg.cc/yY5GcYLy/Collections-CPT-1.png">
     - From VSCode model, show your unique code that was created to initialize table and create test data.
         - <img src="https://i.postimg.cc/PrQL2rvY/Collections-2.png">
         - <img src="https://i.postimg.cc/MKSM7jHz/Collections-3.png">
         - <img src="https://i.postimg.cc/3rp00ZKL/Collections-4.png">
+        - From CPT: <img src="https://i.postimg.cc/ZRTs49q4/Collections-CPT-2.png">
+        - From CPT: <img src="https://i.postimg.cc/3wQbff5y/Collections-CPT-3.png">
+        - From CPT: <img src="https://i.postimg.cc/zDx6DkWM/Collections-CPT-4.png">
+        - From CPT: <img src="https://i.postimg.cc/Gmy5QwNw/Collections-CPT-5.png">
+        - From CPT: <img src="">
 
 > Lists and Dictionaries
 - Blog Python API code and use of List and Dictionaries.
     - In VSCode using Debugger, show a list as extracted from database as Python objects.
         - Dictionary with a list in it, so this is also for the question below: <img src="https://i.postimg.cc/DZG0s2KW/List-Dictionary-1.png">
         - <img src="https://i.postimg.cc/wMdvQS6w/List-Dictionary-2.png">
+        - From CPT: <img src="https://i.postimg.cc/4NnMYhQ3/List-Dictionaries-CPT-1.png">
     - In VSCode use Debugger and list, show two distinct example examples of dictionaries, show Keys/Values using debugger.
         - <img src="https://i.postimg.cc/5yqt7nyb/List-Dictionary-3.png">
         - <img src="https://i.postimg.cc/v8WDZHzk/List-Dictionary-4.png">
@@ -32,27 +39,40 @@ courses: { compsci: {week: 29} }
 > APIs and JSON
 - Blog Python API code and use of Postman to request and respond with JSON.
     - In VSCode, show Python API code definition for request and response using GET, POST, UPDATE methods. Discuss algorithmic condition used to direct request to appropriate Python method based on request method.
-        - <img src="https://i.postimg.cc/NMZTqJQX/APIJSON-1.png">
-        - <img src="https://i.postimg.cc/W1Skbb2T/APIJSON-2.png">
-        - <img src="https://i.postimg.cc/3J5ptcS5/APIJSON-3.png">
-        - <img src="https://i.postimg.cc/BnJF01fm/APIJSON-4.png">
-        - GET and UPDATE not used as unnecessary for our project idea.
+        - GET
+            - From CPT: APIJSONCPT 1
+        - POST
+            - <img src="https://i.postimg.cc/NMZTqJQX/APIJSON-1.png">
+            - <img src="https://i.postimg.cc/W1Skbb2T/APIJSON-2.png">
+            - <img src="https://i.postimg.cc/3J5ptcS5/APIJSON-3.png">
+            - <img src="https://i.postimg.cc/BnJF01fm/APIJSON-4.png">
+            - Machine learning simply used POST, in the CPT-ML hybrid, the request was determined based on the function ran as they each had their respective request method.
+        - UPDATE
+            - From CPT: APIJSONCPT 2
     - In VSCode, show algorithmic conditions used to validate data on a POST condition.
         - <img src="https://i.postimg.cc/WzrZ2G4H/APIJSON-5.png">
-        - GET and UPDATE not used.
+        - From CPT: APIJSONCPT3
     - In Postman, show URL request and Body requirements for GET, POST, and UPDATE methods.
-        - <img src="https://i.postimg.cc/yYmRtytJ/APIJSON-6.png">
-        - <img src="https://i.postimg.cc/xjbMy2P3/APIJSON-7.png">
-        - GET and UPDATE not used.
+        - GET
+            - From CPT: APIJSONCPT 4
+        - POST
+            - <img src="https://i.postimg.cc/yYmRtytJ/APIJSON-6.png">
+            - <img src="https://i.postimg.cc/xjbMy2P3/APIJSON-7.png">
+        - UPDATE
+            - From CPT: APIJSONCPT 5
     - In Postman, show the JSON response data for 200 success conditions on GET, POST, and UPDATE methods.
-        - <img src="https://i.postimg.cc/FKRJf5Rc/APIJSON-8.png">
-        - <img src="https://i.postimg.cc/pd65zGhS/APIJSON-9.png">
-        - GET and UPDATE not used.
+        - GET
+            - From CPT: APIJSONCPT 6
+        - POST
+            - <img src="https://i.postimg.cc/FKRJf5Rc/APIJSON-8.png">
+            - <img src="https://i.postimg.cc/pd65zGhS/APIJSON-9.png">
+        - UPDATE
+            - From CPT: APIJSONCPT 7
     - In Postman, show the JSON response for error for 400 when missing body on a POST request.
         - <img src="https://i.postimg.cc/qqftZNGX/APIJSON-10.png">
         - <img src="https://i.postimg.cc/HnQJGTZG/APIJSON-11.png">
     - In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.
-        - UPDATE not used.
+        - From CPT: N/A, our PUT was a little weird as we configured PUT to simply replace the first row in our liquid database with the new data in the body, allowing for a cleaner database.
 
 > Frontend
 - Blog JavaScript API fetch code and formatting code to display JSON.
