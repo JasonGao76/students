@@ -19,7 +19,7 @@ courses: { compsci: {week: 29} }
 > Work on and finish Data Structures Write Up
 
 ## Thursday:
-> 
+> Fix Data Structures write up
 
 ## Friday:
-> 
+> Finish corrected Data Structures write up and did cross-over review with Srijan
