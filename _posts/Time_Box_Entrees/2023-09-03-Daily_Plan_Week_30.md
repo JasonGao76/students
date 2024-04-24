@@ -25,7 +25,7 @@ courses: { compsci: {week: 30} }
 - SECRET_KEY to have security for website and help stop cross-origin attacks
 - Certbot gives website a certificate, allowing it to use HTTPS (HTTPS has security, HTTP does not) so it's trusted and communications are secure
 - Internet breaks data down into packets and sends these small packets to wherever it needs to go
-    - Internet is inherintly fault tolerant due to multiple connections to nearly every place
+    - Internet is inherently fault tolerant due to multiple connections to nearly every place
 - All related to networking
 - Parallel/distributed computing is having multiple systems all do the same task at the same time, and it also provides fault tolerance because another system can pick up the job that another one failed at
 - Gunicorn is Python for web server, and can set how many instances of server to run (provides fault tolerance in case one crashes/fails)
@@ -36,7 +36,9 @@ courses: { compsci: {week: 30} }
 - Prepare for CPT submission and do Collegeboard written examination practice
 
 ## Wednesday:
-> 
+> Continue polishing CPT and fixing it / adding features
+- Frontend should be all good (unless want to add range/movement functionality)
+- Backend, currently working on classes.py (model)
 
 ## Thursday:
 > 
