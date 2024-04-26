@@ -41,7 +41,7 @@ courses: { compsci: {week: 30} }
 - Backend, currently working on classes.py (model)
 
 ## Thursday:
-> 
+> Working on CPT
 
 ## Friday:
-> 
+> Working on CPT
