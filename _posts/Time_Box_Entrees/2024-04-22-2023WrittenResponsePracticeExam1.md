@@ -9,13 +9,13 @@ courses: { compsci: {week: 28} }
 ---
 
 > Component A: Program Code
-- 
+- See actual CB submission (CPT Program Code.pdf)
 
 > Component B: Video
-- 
+- See actual CB submission (CPT Submission Video.mp4)
 
 > Component C: Personalized Project Reference
-- 
+- See actual CB submission (420Y23W8_PPR.pdf)
 
 > Question 1: Describe one piece of documentation that would be appropriate to include with or in your program. Describe the intended purpose of this documentation by identifying who would use it and what they would do with it.
 - Question: are we meant to actually have a piece of documentation or is it just if you were to have one, what would be appropriate?
