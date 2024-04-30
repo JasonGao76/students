@@ -9,7 +9,7 @@ courses: { compsci: {week: 31} }
 ---
 
 ## Monday:
-> 
+> Do practice written FRQ response
 
 ## Tuesday:
 > 
