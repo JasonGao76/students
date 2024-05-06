@@ -9,7 +9,11 @@ courses: { compsci: {week: 32} }
 ---
 
 ## Monday:
-> 
+> Work on other AP work
+
+> Add more description to DS Write Up
+- Finished updating SQLite database/datatable and part of API/JSON
+- To update: Lists/Dictionaries and rest of API/JSON (past UPDATE)
 
 ## Tuesday:
 > 

@@ -12,14 +12,14 @@ courses: { compsci: {week: 29} }
 - Blog Python Model code and SQLite Database.
     - From VSCode using SQLite3 Editor, show your unique collection/table in database, display rows and columns in the table of the SQLite database.
         - <img src="https://i.postimg.cc/mD1zwY7g/Collections-1.png">
-            - This is the database used in our data structures project to hold the inputs of the user. It has id, socialclass, age, sex, siblings, family, fare, port, and alone as the columns, and each row is a new entry / submission from the user.
+            - This is the database used in our data structures project to save the inputs of the user. It has id, socialclass, age, sex, siblings, family, fare, port, and alone as the unique columns, and each row is a new entry / submission (after being processed) from the user.
         - From CPT: <img src="https://i.postimg.cc/yY5GcYLy/Collections-CPT-1.png">
-            - This is the database used in our CPT project for the preset classes the user can choose from. It has id, classname, health, attack, range, and movement as the columns, and each row is a class the user can choose from.
+            - This is the database used in our CPT project to define the preset classes the user can choose from. It has id, classname, health, attack, range, and movement as the unique columns, and each row is a preset class the user can choose from to make their character and play the game with. The data of the class the user chooses is retrieved from this database and saved in a separate datatable so it can be updated as the user plays the game.
     - From VSCode model, show your unique code that was created to initialize table and create test data.
         - <img src="https://i.postimg.cc/PrQL2rvY/Collections-2.png"><img src="https://i.postimg.cc/MKSM7jHz/Collections-3.png"><img src="https://i.postimg.cc/3rp00ZKL/Collections-4.png">
-            - Creates datatable called ds, makes all the arguments, makes init, sets each property, and initializes the table.
+            - The datatable used in the data structures project is defined under class DS, and within it the table is named, the arguments are made, init is defined, each argument is made into a property and is set, and the table is initialized.
         - From CPT: <img src="https://i.postimg.cc/ZRTs49q4/Collections-CPT-2.png"><img src="https://i.postimg.cc/3wQbff5y/Collections-CPT-3.png"><img src="https://i.postimg.cc/zDx6DkWM/Collections-CPT-4.png"><img src="https://i.postimg.cc/Gmy5QwNw/Collections-CPT-5.png">
-            - Creates datatable called CharClasses, makes all the arguments, makes init, sets each property, and initializes the table with the preset classes.
+            - The datatable used in the CPT Project is defined under class Classes, and within it the table is named, the arguments are made, init is defined, each argument is made into a propert and is set, and the table is initialized while also defining and adding the preset class data to the table.
 
 > Lists and Dictionaries
 - Blog Python API code and use of List and Dictionaries.
@@ -37,14 +37,15 @@ courses: { compsci: {week: 29} }
     - In VSCode, show Python API code definition for request and response using GET, POST, UPDATE methods. Discuss algorithmic condition used to direct request to appropriate Python method based on request method.
         - GET
             - From CPT: <img src="https://i.postimg.cc/wxJbFxJq/APIJSONCPT-1.png">
-                - Code GET the users from the database and iterates through it to a specific character and returns that character.
+                - GET used in CPT project GETS all the users from the database of current characters, iterates through it to a specific character, and returns that character in json format.
         - POST
-            - <img src="https://i.postimg.cc/NMZTqJQX/APIJSON-1.png"><img src="https://i.postimg.cc/W1Skbb2T/APIJSON-2.png"><img src="https://i.postimg.cc/3J5ptcS5/APIJSON-3.png"><img src="https://i.postimg.cc/BnJF01fm/APIJSON-4.png">
-                - POST used by Titanic ML to create a new passenger to feed into the ML and run the ML to find the probability of surviving.
-                - POST used by Covid ML to calculate risk of getting covid by using a mock database and running a logistical regression.
+            - <img src="https://i.postimg.cc/NMZTqJQX/APIJSON-1.png"><img src="https://i.postimg.cc/W1Skbb2T/APIJSON-2.png"><img src="https://i.postimg.cc/3J5ptcS5/APIJSON-3.png">
+                - POST used by data structure Titanic ML to define arguments for each passenger, creates a new passenger to feed into the ML (and gets values from frontend), trains the ML with a logistical regression model to predict dead and alive probability (note that it's inefficient to train ML every time), and runs the ML using the passenger defined earlier to find and return the probability of surviving.
+            - <img src="https://i.postimg.cc/BnJF01fm/APIJSON-4.png">
+                - POST used by data structure Covid ML to define mock database, train ML with logistical regression model to predict risk level, calculates risk level by running ML using the data sent from the frontend, and returns risk.
         - UPDATE
             - From CPT: <img src="https://i.postimg.cc/m2ypfd8K/APIJSONCPT-2.png">
-                - PUT used to update current character's statistics after they get hit or gain HP.
+                - PUT used in CPT project gets the new character data from the frontend and creates a new character in the currentCharacter datatable, overriding the first row (index 0) with the new data. This works in the context of our game since the user only plays with one class at a time, but does offer a potential feature to have the user be able to save the data of the characters they play. This also somewhat acts as our DELETE as it overrides the old data with the new data, deleting the old data as a result.
     - In VSCode, show algorithmic conditions used to validate data on a POST condition.
         - <img src="https://i.postimg.cc/WzrZ2G4H/APIJSON-5.png">
             - Cleans and processes the inputted data to convert sex and age into binary true/false.
