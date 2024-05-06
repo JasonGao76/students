@@ -79,3 +79,7 @@ courses: { compsci: {week: 28} }
 - Doesn't need to be too long, be succint to the point and answer the prompt and reference like your code variable names
 - When being asked to write how to do an algorithm, don't like literally write the code but write out the steps for what the code should do
     - Ex: set count = 0 (assuming target number already defined), then iterate through mylist and for each element, use an if condition to call isEqual to see if each element is equal to the target number, If equal and isEqual is true, add one to count. Print count at the end.
+- Run time errors
+    - Errors that occur AFTER the code is compiled and occur when the code is run
+    - Think of it as like, all the variables are set and code is translated into machine code, but nothing is actually run and the variables have no value yet and no calculations ran --> then the code is run and the calculations are ran, and THEN boom there's an error
+    - Common examples are divide by 0, assessing an array using invalid index (out of bounds, or negative), and infinite recursion (indefinitely calling function, like function call itself)
