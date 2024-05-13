@@ -16,13 +16,13 @@ courses: { compsci: {week: 32} }
 - To update: Lists/Dictionaries and rest of API/JSON (past UPDATE)
 
 ## Tuesday:
-> 
+> Gone for AP Stats exam
 
 ## Wednesday:
-> 
+> Prep for APUSH exam
 
 ## Thursday:
-> 
+> Prep for APUSH exam
 
 ## Friday:
-> 
+> Gone for APUSH exam

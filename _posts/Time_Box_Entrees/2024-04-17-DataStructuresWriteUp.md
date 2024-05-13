@@ -24,13 +24,16 @@ courses: { compsci: {week: 29} }
 > Lists and Dictionaries
 - Blog Python API code and use of List and Dictionaries.
     - In VSCode using Debugger, show a list as extracted from database as Python objects.
-        - Dictionary with a list in it, so this is also for the question below: <img src="https://i.postimg.cc/DZG0s2KW/List-Dictionary-1.png"><img src="https://i.postimg.cc/wMdvQS6w/List-Dictionary-2.png">
-            - Passenger is the dictionary (also for the second question), and within it has lists for columns and the axes for the Titanic ML.
-        - From CPT: <img src="https://i.postimg.cc/4NnMYhQ3/List-Dictionaries-CPT-1.png">
-            - CurrentCharacter uses a list of the classes to get a specific class and then make that the currentcharacter.
+        - List: CharClasses (from CPT)
+            - <img src="https://i.postimg.cc/1XKF3Xzr/List-1.png">
+            - This is from the GET when selecting a preset class to make a character. Whenever the GET is run, a list of all the preset classes is made (and then the data of the class that's selected is returned back to the frontend). CharClasses is the list of the preset classes.
     - In VSCode use Debugger and list, show two distinct example examples of dictionaries, show Keys/Values using debugger.
-        - <img src="https://i.postimg.cc/5yqt7nyb/List-Dictionary-3.png"><img src="https://i.postimg.cc/v8WDZHzk/List-Dictionary-4.png"><img src="https://i.postimg.cc/m2BkzfpD/List-Dictionary-5.png"><img src="https://i.postimg.cc/Wb830Wx7/List-Dictionary-6.png"><img src="https://i.postimg.cc/ht3t5JDz/List-Dictionary-7.png">
-            - Titanic_data is a dictionary used by the Titanic ML and includes the various inputs for the ML, including age, alone, embarked, and so on.
+        - Dictionary 1: Passenger
+            - <img src="https://i.postimg.cc/B6HDRM9y/Dictionary-1-1.png"><img src="https://i.postimg.cc/902T2Zcf/Dictionary-1-2.png"><img src="https://i.postimg.cc/fb3YfMHM/Dictionary-1-3.png">
+            - This is from the POST from the small group ML project where we used the Titanic dataset to predict survivability probability. The dictionary "passenger" holds age, alone, embarked, fare, name, pclass, sex, parch (parent children), and sibsp (sibling spouse) in addition to the other weird ML things  to feed into the ML to find the survivability probability.
+        - Dictionary 2: Body (from CPT)
+            - <img src="https://i.postimg.cc/6QDnHFSn/Dictionary-2.png">
+            - This is from the PUT when creating a new character. The dictionary "body" holds the key (what stat) and value (value of stat) for each stat of the preset class from the original request (data from the GET in the list section above), and is then added to the currentchar database to change later on as the game as played.
 
 > APIs and JSON
 - Blog Python API code and use of Postman to request and respond with JSON.
@@ -50,38 +53,38 @@ courses: { compsci: {week: 29} }
         - <img src="https://i.postimg.cc/WzrZ2G4H/APIJSON-5.png">
             - Cleans and processes the inputted data to convert sex and age into binary true/false.
         - From CPT: <img src="https://i.postimg.cc/cLdjvqvs/APIJSONCPT-3.png">
-            - Ensures data is correct and valid for the data the input is for.
+            - Ensures classname is valid by checking if the length is at least 2.
     - In Postman, show URL request and Body requirements for GET, POST, and UPDATE methods.
         - GET
             - From CPT: <img src="https://i.postimg.cc/sgKLSnW5/APIJSONCPT-4.png">
-                - Sent to currentchar to get the current character's stats.
+                - Sent to currentchar to get the current character's stats. No body required for GET.
         - POST
             - <img src="https://i.postimg.cc/yYmRtytJ/APIJSON-6.png">
-                - Sent to Titanic api to calculate the survivability percent.
+                - Sent to Titanic api to calculate the survivability percent. Body has the relevant values to feed into the ML (name, socialclass, age, sex, siblings, family, fare, port, and alone).
             - <img src="https://i.postimg.cc/xjbMy2P3/APIJSON-7.png">
-                - Sent to Covid api to calculate the risk.
+                - Sent to Covid api to calculate the risk. Body has the relevant values to feed into the ML (new_cases, total_cases, recovery_rate, vaccination_rate).
         - UPDATE
             - From CPT: <img src="https://i.postimg.cc/6Qm1byY3/APIJSONCPT-5.png">
-                - Sent to currentchar to update current stats with new stats.
+                - Sent to currentchar to update current stats with new stats. Body has relevant class stats (classname, health, attack, range, movement).
     - In Postman, show the JSON response data for 200 success conditions on GET, POST, and UPDATE methods.
         - GET
             - From CPT: <img src="https://i.postimg.cc/7hvtDjvr/APIJSONCPT-6.png">
-                - Received the current character's statistics
+                - Received the current character's stats.
         - POST
             - <img src="https://i.postimg.cc/FKRJf5Rc/APIJSON-8.png">
-                - Received survivability probability (0.807)
+                - Received survivability probability (0.807).
             - <img src="https://i.postimg.cc/pd65zGhS/APIJSON-9.png">
-                - Received risk (83.802)
+                - Received risk as percent (83.802).
         - UPDATE
             - From CPT: <img src="https://i.postimg.cc/c4SkzqMQ/APIJSONCPT-7.png">
-                - Outputs the new stats.
+                - Outputs the new stats after being updated.
     - In Postman, show the JSON response for error for 400 when missing body on a POST request.
         - <img src="https://i.postimg.cc/qqftZNGX/APIJSON-10.png">
-            - No body in POST to get survivability probability, got 400 Bad Request error.
+            - No body in POST to get survivability probability, so 400 Bad Request error displayed.
         - <img src="https://i.postimg.cc/HnQJGTZG/APIJSON-11.png">
-            - No body in POST to get risk, got 400 Bad Request error.
+            - No body in POST to get risk, so 400 Bad Request error displayed.
     - In Postman, show the JSON response for error for 404 when providing an unknown user ID to a UPDATE request.
-        - From CPT: N/A, our PUT was a little weird as we configured PUT to simply replace the first row in our liquid database with the new data in the body, allowing for a cleaner database.
+        - From CPT: N/A, our PUT was a little weird as we configured PUT to simply replace the first row in our liquid database with the new data in the body, allowing for a cleaner database. This made it so using an ID was unnecessary.
 
 > Frontend
 - Blog JavaScript API fetch code and formatting code to display JSON.
