@@ -14,13 +14,13 @@ courses: { compsci: {week: 33} }
 > Mr. Lopez isn't here for me to present Data Structures Write Up to him.
 
 ## Tuesday:
-> 
+> APEL Exam
 
 ## Wednesday:
-> 
+> AP CSP Exam
 
 ## Thursday:
-> 
+> AP Bio Exam
 
 ## Friday:
 > 
