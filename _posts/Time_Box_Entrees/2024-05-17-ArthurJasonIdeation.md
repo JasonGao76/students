@@ -21,6 +21,7 @@ courses: { compsci: {week: 34} }
 - Function with find and replace, or search for a value and highlight (OR BOTH with find, highlight, and replace)
     - search
     - O(n^2)
+
 > Central page
 - Have the central page be one of the tabs (make .md in the root directory)
 - That page links to all four games
