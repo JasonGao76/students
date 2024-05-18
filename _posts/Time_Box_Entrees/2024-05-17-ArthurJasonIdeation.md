@@ -1,8 +1,11 @@
 ---
 layout: post
-title: Arthur and Jason part for the Final Project
+title: Final Project Plan
+description: Arthur and Jason part for the Final Project
 hide: true
-permalink: /arthurjason
+comments: true
+type: tangibles
+courses: { compsci: {week: 34} }
 ---
 
 ## Ideation for Arthur and Jason game for the final project
