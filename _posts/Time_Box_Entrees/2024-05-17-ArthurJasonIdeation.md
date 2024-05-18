@@ -22,5 +22,5 @@ courses: { compsci: {week: 34} }
     - search
     - O(n^2)
 > Central page
-    - Have the central page be one of the tabs (make .md in the root directory)
-    - That page links to all four games
+- Have the central page be one of the tabs (make .md in the root directory)
+- That page links to all four games
