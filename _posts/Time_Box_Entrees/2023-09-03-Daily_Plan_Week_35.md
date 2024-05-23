@@ -22,7 +22,8 @@ courses: { compsci: {week: 35} }
 > Work on final project
 
 ## Wednesday:
-> 
+> Work on final project
+- Nearly done, just missing our own sort algorithm and then some polishes (checks on input, css styling, and make matrix look better)
 
 ## Thursday:
 > 
