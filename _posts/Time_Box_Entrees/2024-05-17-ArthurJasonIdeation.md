@@ -5,7 +5,7 @@ description: Arthur and Jason part for the Final Project
 hide: true
 comments: true
 type: tangibles
-courses: { compsci: {week: 34} }
+courses: { compsci: {week: 35} }
 ---
 
 ## Ideation for Arthur and Jason game for the final project
