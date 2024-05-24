@@ -29,4 +29,4 @@ courses: { compsci: {week: 35} }
 > Work on final project, finished it
 
 ## Friday:
-> 
+> Polish and add more features to final project
