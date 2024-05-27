@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Daily Plan Week 34
+title: Daily Plan Week 35
 description: Daily plan for week 35
 type: plans
 courses: { compsci: {week: 35} }

@@ -28,7 +28,8 @@ courses: { compsci: {week: 35} }
 - e
 
 > GitHub Project and Profile review
-- e
+- [GitHub Profile](https://github.com/JasonGao76)
+- See "students" (home repo), "WRONGJason" (CPT frontend) and "WRONGFlaskJason" (CPT backend), "JAIKnation_frontend" (ML projects frontend) and "JAIKnation_backend" (ML projects frontend), and "JAIKTANK_frontend" (combined group project frontend and final project) and "JAIKTANK_backend" (combined group project backend)
 
 > Describe how you have showcased projects (ie N@tM May 2024)
 - e
