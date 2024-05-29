@@ -25,24 +25,39 @@ courses: { compsci: {week: 35} }
     - Home repository: ["students"](https://github.com/JasonGao76/students)
         - Individually keeping track of everything and organizing all my work
     - Tri 1 Passion Project: ["ramjiJarmi" (frontend)](https://github.com/M8tth3/ramjiJarmi) and ["JARMIRAMJI" (backend)](https://github.com/dino596/JARMIRAMJI)
-        - Divided up the roles (me and Arthur as backend, Matthew, Isabella, and Rayane as frontend)
-        - We were pretty ambitious with this project so constantly kept up and reminded each other of work that was due through Slack and Discord
-        - Had meetings to check in with each other and put the project together
+        - Overview
+            - 
+        - Teamwork
+            - Divided up the roles (me and Arthur as backend, Matthew, Isabella, and Rayane as frontend)
+            - We were pretty ambitious with this project so constantly kept up and reminded each other of work that was due through Slack and Discord
+            - Had meetings to check in with each other and put the project together
     - Tri 2 CPT: ["WRONGJason" (frontend)](https://github.com/JasonGao76/WRONGJason) and ["WRONGFlaskJason" (backend)](https://github.com/JasonGao76/WRONGFlaskJason)
-        - Divided up the roles (Rayyan and Grayson as backend, me, Will, and Nathan as frontend)
-        - Created an iMessages and Slack group chat to keep up with work
-            - Many messages of my helping them / creating big messages with tutorials of how to fork or setting standards for styles and whatnot
-        - Had meetings to put the project together
+        - Overview
+            - 
+        - Teamwork
+            - Divided up the roles (Rayyan and Grayson as backend, me, Will, and Nathan as frontend)
+            - Created an iMessages and Slack group chat to keep up with work
+                - Many messages of my helping them / creating big messages with tutorials of how to fork or setting standards for styles and whatnot
+            - Had meetings to put the project together
     - Tri 3 ML Projects: Same as Tri 2 CPT and also ["JAIKnation_frontend" (frontend)](https://github.com/JasonGao76/JAIKnation_frontend) and ["JAIKnation_backend" (backend)](https://github.com/KaramKambo/JAIKnationBackend)
-        - Split up the work (me and Ishraq as frontend, Arthur and Karam as backend)
-        - Created a Slack and Discord group chat to keep up and check in with each other
-        - Me and Arthur did most of the work, so we had many messages over Discord in DMs to help each other out
+        - Overview
+            - 
+        - Teamwork
+            - Split up the work (me and Ishraq as frontend, Arthur and Karam as backend)
+            - Created a Slack and Discord group chat to keep up and check in with each other
+            - Me and Arthur did most of the work, so we had many messages over Discord in DMs to help each other out
     - Tri 3 Combined Group Project and Final Project: ["JAIKTANK_frontend" (frontend)](https://github.com/JasonGao76/JAIKTANK_frontend) and ["JAIKTANK_backend" (backend)](https://github.com/JasonGao76/JAIKTANK_backend)
         - Combined Group Project:
-            - Mostly put our stuff together in class, so we met up and worked on it together or worked separately and occasionally moved over to update each other
-            - Me and Arthur did most of the work, so we had many messages over Discord in DMs to help each other out
+            - Overview
+                - 
+            - Teamwork
+                - Mostly put our stuff together in class, so we met up and worked on it together or worked separately and occasionally moved over to update each other
+                - Me and Arthur did most of the work, so we had many messages over Discord in DMs to help each other out
         - Final Group Project:
-            - This was just me and Arthur, so we worked together in class, designed roles (I do sort and HTML, he does randomize and search) and planned out (see "Final Project Plan") what we were going to do, and had many messages over Discord to help each other out
+            - Overview
+                - 
+            - Teamwork
+                - This was just me and Arthur, so we worked together in class, designed roles (I do sort and HTML, he does randomize and search) and planned out (see "Final Project Plan") what we were going to do, and had many messages over Discord to help each other out
 
 > Teamwork methodologies and artifacts showing your particpation
 - Tri 1
