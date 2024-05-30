@@ -24,7 +24,12 @@ courses: { compsci: {week: 36} }
 > N@TM, help team review project
 
 ## Thursday:
-> Work on final interview
+> Present final interview
+- Earned 0.95/1
+- Tips:
+    - BE PREPARED WITH A QUESTION OR QUESTIONS TO ASK. It shows your interest and care in the job.
+    - If talking about someone else, focus on that less and be like oh they were an inspiration to me and I've been trying to replicate / follow them by ___.
+    - Try to cut down resume to 1 page for an interview, like a link to a LinkedIn could be good
 
 ## Friday:
 > 
