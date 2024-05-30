@@ -18,13 +18,13 @@ courses: { compsci: {week: 36} }
 - Lopez tips: Focus more on myself and what I did, not what group did + highlight what I did, why I did it, what I found enjoyable, and how I overcame challenges.
 
 ## Tuesday:
-> 
+> Polished final project
 
 ## Wednesday:
-> 
+> N@TM, help team review project
 
 ## Thursday:
-> 
+> Work on final interview
 
 ## Friday:
 > 
