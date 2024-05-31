@@ -32,4 +32,6 @@ courses: { compsci: {week: 36} }
     - Try to cut down resume to 1 page for an interview, like a link to a LinkedIn could be good
 
 ## Friday:
-> 
+> Help friend with interview
+
+> Work on other classes
